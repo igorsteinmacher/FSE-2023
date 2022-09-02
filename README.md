@@ -1,7 +1,6 @@
-# ICSE-2023
+# Replication Package
 [![DOI](https://zenodo.org/badge/202890143.svg)](https://zenodo.org/badge/latestdoi/202890143)
 
-Welcome to the replication package for the paper entitled "Exploring the automatic categorization of contribution files in open source repositories", submitted to ICSE 2023. 
 
 # Repository Structure 
 Our package is divided in folders and it is organized as follows:
