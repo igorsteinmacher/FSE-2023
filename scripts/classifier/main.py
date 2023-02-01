@@ -95,9 +95,9 @@ def evaluate_final_estimator_on_unseen_data(X_train, y_train, X_test, y_test, re
 
     model = train_classifier(**training_args)
 
-    export_classification_report(model, X_test, y_test, results_dir)
+    # export_classification_report(model, X_test, y_test, results_dir)
     export_confusion_matrix(model, X_test, y_test)
-    export_learning_curve(**training_args)
+    # export_learning_curve(**training_args)
 
 def evaluate_usefulness_of_features(X_train, y_train, selected_feature_names, results_dir):
 
@@ -250,8 +250,8 @@ if __name__ == '__main__':
     # Stage 2 #
     ###########
     # Evaluates the final estimator on unseen data (i.e. estimator that best fits the problem)
-    # X_train, y_train, X_test, y_test, _, _, _ = import_data_for_classification(training_spreadsheets_dir, data_dir, features='all')
-    # evaluate_final_estimator_on_unseen_data(X_train, y_train, X_test, y_test, results_dir)
+    X_train, y_train, X_test, y_test, _, _, _ = import_data_for_classification(training_spreadsheets_dir, data_dir, features='all')
+    evaluate_final_estimator_on_unseen_data(X_train, y_train, X_test, y_test, results_dir)
 
     # Using only statistic features
     # X_train, y_train, X_test, y_test, _, _, _ = import_data_for_classification(training_spreadsheets_dir, data_dir, features='statistic')
@@ -262,8 +262,8 @@ if __name__ == '__main__':
     # evaluate_final_estimator_on_unseen_data(X_train, y_train, X_test, y_test, results_dir)
 
     # Evaluate usefulness of characteristics
-    X_train, y_train, _, _, _, _, selected_feature_names = import_data_for_classification(training_spreadsheets_dir, data_dir, features='all')
-    evaluate_usefulness_of_features(X_train, y_train, selected_feature_names, results_dir)
+    # X_train, y_train, _, _, _, _, selected_feature_names = import_data_for_classification(training_spreadsheets_dir, data_dir, features='all')
+    # evaluate_usefulness_of_features(X_train, y_train, selected_feature_names, results_dir)
  
     ###########
     # Stage 3 #

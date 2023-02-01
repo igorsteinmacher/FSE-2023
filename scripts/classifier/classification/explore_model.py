@@ -34,6 +34,7 @@ def export_classification_report(model, X_test, y_test, results_dir):
     with open(report_filepath, 'w') as report_file:
         json.dump(report, report_file, indent=4)
 
+
 def export_confusion_matrix(model, X_test, y_test):
     classes = ['No categories identified.',
                 'CF - Contribution flow',
