@@ -1,712 +1,1005 @@
-﻿Paragraph,Label
-To check that your contributions match the project coding style make sure yarn test passes.,No categories identified.
-"- chore: Changes to the build process or auxiliary tools and libraries such as documentation
-generation",No categories identified.
-"We use semantic-release, so we have very precise rules over how our git commit messages can be formatted.",No categories identified.
-Commenting,No categories identified.
-The master branch of the repository should be kept releasable at any time. This way we can continuously deploy fixes and improvements without costly managing of different branches and issues will be noticed and fixed quickly. This also ensures other contributors can check out the latest version from GitHub and work on it with minimal disruption from other features in progress.,No categories identified.
-"- If you want to raise an issue such as a defect or an enhancement request,
-please open a GitHub issue for the appropriate project. Please keep the
-following in mind:",No categories identified.
-Contributions Are Welcome!,No categories identified.
-"If you have improvements or bugfixes to make to iperf3, we'd love to
-hear from you.  We prefer changes to be submitted in the form of pull
-requests on GitHub, although we can (probably) accept simple patches
-as well.  If in doubt, ask.",No categories identified.
-- Document any change in behaviour - Make sure the README.md and any other relevant documentation are kept up-to-date.,No categories identified.
-"| Types         | Description |
-| ------------- |-------------|
-| BREAKING      | Changes including breaking changes. |
-| build         | New build version. |
-| chore         | Changes to the build process or auxiliary tools such as changelog generation. No production code change. |
-| docs          | Documentation only changes. |
-| feat          | A new feature. |
-| fix           | A big fix. |
-| perf          | A code change that improves performance. |
-| refactor      | A code change that neither fixes a bug nor adds a feature. |
-| style         | Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc.). |
-| test          | Adding missing or correcting existing tests. |",No categories identified.
-"- If the acronym comes at the start of the field or parameter name, use lowercase for the
-entire acronym -- for example, String url;.",No categories identified.
-"# Clone the repository
-git clone https://github.com/leon-ai/leon.git leon",No categories identified.
-"The simplest thing that you can do to help us is by filing good bug reports, so here we go:",No categories identified.
-Submitting an Issue,No categories identified.
-Trivial Exemption Policy,No categories identified.
-- Insert a blank line before at-clauses/tags.,No categories identified.
-"In order to keep a clear roadmap, milestones are used to track what is happening and what needs to be done. Milestones are used to classify problems by:",No categories identified.
-"- config (JUL: CONFIG, Log4J: CONFIG): information related to configuration of the system (Example: ServiceLoaderTestEngineRegistry logs IDs of discovered engines)",No categories identified.
-Tips For Bug Patching,No categories identified.
-"To lint the JavaScript and CSS, as well as build the Demos, run grunt:",No categories identified.
-"- #activity contains notifications from the various platforms that we use to keep the Libraries.io project turning. Including notifications from GitHub, Twitter and our servers.",No categories identified.
-"- error (JUL: SEVERE, Log4J: ERROR): extra information (in addition to an Exception) about errors that will halt execution",No categories identified.
-$ composer global require squizlabs/php_codesniffer,No categories identified.
-Contributing,No categories identified.
-When submitting a pull request for review there are a few important steps you have to take to ensure that it gets reviewed quickly and increase the chances that it will be merged:,No categories identified.
-Naming Public Item,No categories identified.
-"If you find a bug in the source code, you can help us by
-submitting an issue to our GitHub Repository. Even better, you can
-submit a Pull Request with a fix.",No categories identified.
-Tests,No categories identified.
-"Hi! Thanks for your interest in contributing to NLTK.
-:-) You'll be joining a long list of contributors.
-In this document we'll try to summarize everything that you need to know to
-do a good job.",No categories identified.
-"- Before creating a pull request, run the unit tests to make sure they all pass.",No categories identified.
-"The remote upstream branch links your fork of Lean with our master copy, so when you perform a git pull --rebase you'll be getting updates from our repository.",No categories identified.
-Microsoft Windows [Version 10.0.18900.1001],No categories identified.
-How can I talk to other contributors?,No categories identified.
-- Load function arguments into local variables for readability:,No categories identified.
-"8.  Other relevant information, e.g. using Apache Cordova",No categories identified.
-- Place <p> on the same line as the first line in a new paragraph and precede <p> with a blank line.,No categories identified.
-- Rebase your branch and force push to your GitHub repository (this will update your Pull Request):,No categories identified.
-127.0.0.1 v2.bucket.localhost,No categories identified.
-"- When manipulating strings, use Python's new-style
-formatting
-('{} = {}'.format(a, b) instead of '%s = %s' % (a, b));",No categories identified.
-- Check that the issue has not already been reported.,No categories identified.
-"If we find a contribution to be in violation of copyright, it will be immediately removed.  We will bar that contributor from the MonoGame project.",No categories identified.
-Testing with your app,No categories identified.
-- docs: Documentation only changes,No categories identified.
-General,No categories identified.
-Javadoc,No categories identified.
-"- ci: Any changes to our CI configuration files and scripts (Travis, Circle CI, BrowserStack, SauceLabs)",No categories identified.
-"When ready, the branch should be squashed-merged (guide) into develop (or hotfix if it doesn't introduce a breaking change).",No categories identified.
-"- should not be ""This""",No categories identified.
-... or in Windows PowerShell,No categories identified.
-- Commit Message Guidelines,No categories identified.
-The easiest and best way to contribute code changes to the project is through pull requests on Github.,No categories identified.
-4.  Run tests: yarn test.,No categories identified.
-"3.  Run your project's entry point with typewiz-node, e.g. yarn typewiz-node index.ts",No categories identified.
-Contributions are welcome and will be fully credited.,No categories identified.
-Google Hangouts is our preferred tool for video chat. We operate an open hangout for anyone to jump into at any time to discuss issues face to face.,No categories identified.
-2.  clone it git clone https://github.com/<your-username>/grommet.git,No categories identified.
-"Here are few examples about how you could help on Leon, by:",No categories identified.
-a) Launch Extension - Client Side,No categories identified.
-"To enable the Black formatting git hook, run the following from within your virtual
-environment.",No categories identified.
-- don't capitalize first letter,No categories identified.
-You can install PHP Code Sniffer globally with composer.,No categories identified.
-Issues are tagged to represent the feature or category it refers to. We also have some special tags to help organize issues. These includes:,No categories identified.
-After your pull request is merged,No categories identified.
-npm install,No categories identified.
-"At the top right arrow it will say Set Target Platform, select that and continue.",No categories identified.
-1.  Fork the repository and create a feature branch. (Existing contributors can create feature branches without forking. Prefix the branch name with @your-github-username/.),No categories identified.
-Releases,No categories identified.
-"- Create a new branch off of develop with a descriptive name (for example:
-feature/portuguese-sentiment-analysis, hotfix/bug-on-downloader). You can
-do it switching to develop branch (git checkout develop) and then
-creating a new branch (git checkout -b name-of-the-new-branch);",No categories identified.
-- Things we probably will not do soon,No categories identified.
-"5.  Share as much information as possible. Include operating system and
-version, browser and version, version of Hammer.js, customized or vanilla build,
-etc. where appropriate. Also include steps to reproduce the bug.",No categories identified.
-- We LOVE detailed repro steps! What steps do we need to take to reproduce the issue? Assume we love to read repro steps. As much detail as you can stand is probably barely enough detail for us!,No categories identified.
-Subject,No categories identified.
-"To maintain a clear history of progress on each milestone, milestones must be closed when completed and the corresponding version released. A new milestone must then be created for the next release. In addition, the milestone version must be updated when new versions are released.",No categories identified.
-"- Do not use verbs in third person form (e.g. use ""Discover tests..."" instead of ""Discovers tests..."")
-in the first sentence describing a method.",No categories identified.
-"Note: the optional commit -a command line option will automatically ""add"" and ""rm"" edited files.",No categories identified.
-- What build of Windows your device is running,No categories identified.
-run local server with webpack-dev-server and watch.,No categories identified.
-- Video,No categories identified.
-DO THIS (but change the branch name),No categories identified.
-Technical Writing Tips,No categories identified.
-"Accepted coverage for new contributions is 80%. Any contribution not satisfying this requirement
-won't be merged.",No categories identified.
-"- Options for Ruby specific ./configure options. You can pass additional
-configuration options like so:",No categories identified.
-The resulting documentation will be available in api/.,No categories identified.
-"Everyone is permitted to copy and distribute verbatim copies of this
-license document, but changing it is not allowed.",No categories identified.
-The code of conduct is described in CODE_OF_CONDUCT.md,No categories identified.
-"- the extras = all dependencies in needed to emulate pip install nltk[all], see https://tox.readthedocs.io/en/latest/config.html#confval-extras=MULTI-LINE-LIST",No categories identified.
-Naming Conventions,No categories identified.
-Running Tests,No categories identified.
-"There are also tags for the utilities upon which UserFrosting depends, such as Composer and Git.",No categories identified.
-6.  Push your branch: git push -u origin your-branch-name.,No categories identified.
-"- What tools and apps you're using (e.g. VS 2019, VSCode, etc.)",No categories identified.
-"We strongly suggest that before filing an issue, you search through the existing issues to see
-if it has already been filed by someone else.",No categories identified.
-- Submit a pull request for review to the maintainer,No categories identified.
-Please carefully read this page to make the code review process go as smoothly as possible and to maximize the likelihood of your contribution being merged.,No categories identified.
-- Wait for comments.,No categories identified.
-"2)  Now we need to use Tycho to download the dependencies,
-this will get rid of the errors.",No categories identified.
-"Fork, Clone, Branch and Create your PR",No categories identified.
-"if   [[ ""$foo"" == ""bar"" ]]; then command
-elif [[ ""$foo"" == ""baz"" ]]; then other_command
-fi",No categories identified.
-"Contributing translations does not have a workflow like with code. You don't
-need to create an issue, pull request will be enough.",No categories identified.
-"When changing the API documentation, here are some rules to keep in mind.",No categories identified.
-$ ~/.composer/vendor/bin/phpcs,No categories identified.
-Contributing,No categories identified.
-Example,No categories identified.
-"# Run the development web app
-npm run dev:app",No categories identified.
-Code Style,No categories identified.
-- Public or private harassment,No categories identified.
-Useful tools,No categories identified.
-Continuous Integration,No categories identified.
-"- You will only Submit Contributions to which You have the necessary rights. This means
-that if You are employed You have received the necessary permissions from Your employer
-to make the Contributions.",No categories identified.
-Documentation,No categories identified.
-"Any line of the commit message cannot be longer 74 characters! This allows the message to be easier
-to read on GitHub as well as in various git tools.",No categories identified.
-"After an issue is created or a pull request is submitted, contributors and/or
-maintainers will offer feedback. If the pull request passes review, a maintainer
-will accept it with a comment.",No categories identified.
-Found a Bug?,No categories identified.
-"- To build everything and minify it, run npm run build",No categories identified.
-Pull Requests,No categories identified.
-"- trace (JUL: FINER, Log4J: TRACE)",No categories identified.
-$pure_enable_git_async = false,No categories identified.
-"? It is important to follow the spec templates and complete the requested information. The available spec templates will help ensure that specs contain the minimum information & decisions necessary to permit development to begin. In particular, specs require you to confirm that you've already discussed the issue/idea with the team in an issue and that you provide the issue ID for reference.",No categories identified.
-Build summernote,No categories identified.
-- Make reference to possible issues on PR comment,No categories identified.
-Testing,No categories identified.
-Any member of the deployers team are able to redeploy the site. If you require a deployment then you might find one of them in our #general chat channel on Slack.,No categories identified.
-"- All #TODO comments should be turned into issues (use our
-GitHub issue system);",No categories identified.
-Merging,No categories identified.
-Don't be afraid to often use highlighting! It is very valuable when you need to focus the reader's attention on a particular detail that's easy to miss.,No categories identified.
-pytest  packages/python/plotly/plotly/tests/test_core/,No categories identified.
-"If tests are failing and you don't know why, it might be that the
-pre-generated app has become inconsistent in some way. In that case the
-best solution is to purge it with rm -rf test/apps/* and then run the
-acceptance tests again, which will generate a new app.",No categories identified.
-Testing. Writting test cases,No categories identified.
-3)  Wait till the bottom right is done loading:,No categories identified.
-- test file: my_tool.test.fish,No categories identified.
-Versioning,No categories identified.
-This means any new feature MUST target v6 (master branch).,No categories identified.
-- Run npm install to make sure your development dependencies are up-to-date,No categories identified.
-Happy hacking! (;,No categories identified.
-"2.  Report any errors in detail.  Vague issues like ""it doesn't work when I do this"" are not helpful.  Show that you have put some effort into identifying the cause of the error.",No categories identified.
-"We want Marionette to provide a great experience to developers and help you
-write great applications using it. To help us achieve this goal, please follow
-these guidelines when submitting your patches.",No categories identified.
-- Follow the coding guidelines,No categories identified.
-This includes:,No categories identified.
-4.  Expected outcome,No categories identified.
-2.  Install frida on your device and host machine.,No categories identified.
-Rules for contributing,No categories identified.
-- Delete the remote branch on GitHub either through the GitHub web UI or your local shell as follows:,No categories identified.
-- Ensure tests pass before making a pull request. (You can read the Testing section below for how to set up your development environment and run tests),No categories identified.
-"Copyright (C) 2004, 2006 The Linux Foundation and its contributors. 660
-York Street, Suite 102, San Francisco, CA 94110 USA",No categories identified.
-"You can use Chrome, ChromeCanary, Firefox, Opera, Safari, PhantomJS and IE beside PhantomJS.
-Once you run yarn test, it will watch all JavaScript file. Therefore karma runs tests every time you change code.",No categories identified.
-"- Code coverage and unit-testing is an important process of development.
-A pre-commit hook exists which runs the test suite and aborts the commit if
-any fail. To manually run tests, you should run yarn test. If you need to
-update snapshots then run yarn test-update.",No categories identified.
-- Example test classes that should not be picked up by the build must end with a TestCase suffix.,No categories identified.
-"Note: the optional commit -a command line option will automatically ""add"" and ""rm"" edited files.",No categories identified.
-- Make sure to add tests for it. This is important so I don't break it in a future version unintentionally. You can also test your version of pronto locally with the help of gem build and gem install.,No categories identified.
-Contributing,No categories identified.
-The signature key is used to sign requests.,No categories identified.
-2.  A summary of the proposed solution,No categories identified.
-"If you want to contribute but do not have a specific topic in mind, review the list of open bug reports and other issues that are in need of attention.",No categories identified.
-- test file: pure_my_public_file.test.fish,No categories identified.
-- Whatever content You Contribute will be provided under the Project License(s).,No categories identified.
-The errors should now be gone.,No categories identified.
-Who is Libraries.io For?,No categories identified.
-Breaking Changes should start with the word BREAKING CHANGE: with a space or two newlines. The rest of the commit message is then used for this.,No categories identified.
-"If the commit reverts a previous commit, it should begin with revert: , followed by the header of the reverted commit. In the body it should say: This reverts commit <hash>., where the hash is the SHA of the commit being reverted.",No categories identified.
-Pull Request Guidelines,No categories identified.
-- All logging must be performed via the internal Logger faLoggerFactory.,No categories identified.
-2.  This is the second step,No categories identified.
-Getting Started,No categories identified.
-"C:\> $PSVersionTable.OS
-Microsoft Windows 10.0.18909",No categories identified.
-"We want to make contributing to BOLT as easy and transparent as
-possible.",No categories identified.
-- Don't understand how to do something? File an issue/Community Guidance Request,No categories identified.
-feature-*,No categories identified.
-Rebasing,No categories identified.
-Feature Flag's Variable,No categories identified.
-"We welcome community contributions to the SVT-AV1 Encoder. Thank you for your time! By contributing to the project, you agree to the license and copyright terms in the OSI-approved BSD+Patent license and to the release of your contribution under these terms. See LICENSE for details.",No categories identified.
-To Spec or not to Spec,No categories identified.
-npm install,No categories identified.
-Share your videos with us,No categories identified.
-"- For a Major Feature, first open an issue and outline your proposal so that it can be discussed.
-This will also allow us to better coordinate our efforts, prevent duplication of work, and help you to craft the change so that it is successfully accepted into the project.",No categories identified.
-"Once your code has been reviewed and approved by the requisite number of team members, it will be merged into the master branch. Once merged, your PR will be automatically closed.",No categories identified.
-git checkout -b my-dev-branch,No categories identified.
-?????,No categories identified.
-"If you find a bug in twa, please open an issue (or a PR!). At the minimum, please include
-the following:",No categories identified.
-"If you have an idea for a new feature or a suggestion how to improve an existing feature, let us know!",No categories identified.
-Please make sure that we are using the next branch for active development. So your branches must be created from next and not from ~~master~~. Here is a short step-by-step guide on how to get started:,No categories identified.
-Git Commit Guidelines,No categories identified.
-Running tests,No categories identified.
-Reference is organized by APIs rather than concepts. It is intended to be exhaustive. Any corner cases or recommendations that were skipped for brevity in Main Concepts or Advanced Guides should be mentioned in the reference documentation for the corresponding APIs.,No categories identified.
-"- Ensure your code respect our coding standards (cf. .eslintrc.json).
-To do so, you can run:",No categories identified.
-Run code checks and fix any issues:,No categories identified.
-"- Git itself uses the imperative whenever it creates a commit on your behalf, so it makes sense
-for you to use it too",No categories identified.
-Pull Requests,No categories identified.
-"- helping other users on the community forum.
-Join the list of nice people helping other
-plotly users :-).",No categories identified.
-"One may ask you to squash your
-commits
-too. This is used to ""clean"" your Pull Request before merging it (we don't want
-commits such as fix tests, fix 2, fix 3, etc.).",No categories identified.
-Submitting a Pull Request,No categories identified.
-- Follow the commit message guidelines,No categories identified.
-... where you should give your branch a more descriptive name than my-dev-branch,No categories identified.
-You can create a binary that you can sideload to your VS Code installation.,No categories identified.
-- Create topic branches - Don't ask us to pull from your master branch.,No categories identified.
-The current stable major version is v5. The v6 is under active development.,No categories identified.
-"Working on your first Pull Request? You can learn how from this free series
-How to Contribute to an Open Source Project on GitHub",No categories identified.
-- Fork the repo.,No categories identified.
-- Use $(...) instead of back-ticks.,No categories identified.
-"When contributing to Yii you have to follow some conventions and a simple
-workflow. It allows us to handle the requests quickly and ensure best quality
-for the Yii core code.",No categories identified.
-Automatically fixing coding style with PHP-CS-Fixer,No categories identified.
-"npm test
-npm version patch
-git push --follow-tags",No categories identified.
-"3.  If not found, create example on jsbin.com (draft) and describe the problem.",No categories identified.
-- Suggest your change in the Trailblazer Gitter Room and start writing code.,No categories identified.
-C:\> $PSVersionTable.BuildVersion,No categories identified.
-"Contributions of Algorithm Framework Modules needs to follow certain extra patterns, since QuantConnect users can use them in their algorithms.",No categories identified.
-- [ ] create a commit only containing above edit ;,No categories identified.
-"$ git clone git@github.com:YourLogin/saws.git
-$ cd saws",No categories identified.
-Contributing,No categories identified.
-"9.  Wait for a maintainer to review your PR, make changes if it's being
-recommended, and get it merged.",No categories identified.
-Commit Message Format,No categories identified.
-Small issues that do not require a spec will be labelled Issue-Bug or Issue-Task.,No categories identified.
-- Document your changes in the README if it's needed,No categories identified.
-"4.  Optionally, follow the instruction to build the server.",No categories identified.
-Troubleshooting,No categories identified.
-"<type>(<scope>): <subject>
-<BLANK LINE>
-<body>
-<BLANK LINE>
-<footer>",No categories identified.
-Must be one of the following:,No categories identified.
-- npm run test => ????,No categories identified.
-- We MUCH prefer text command-line script than screenshots of command-line script.,No categories identified.
-Don't use features that aren't standardized yet.,No categories identified.
-"When you'd like the team to take a look, (even if the work is not yet fully-complete), mark the PR as 'Ready For Review' so that the team can review your work and provide comments, suggestions, and request changes. It may take several cycles, but the end result will be solid, testable, conformant code that is safe for us to merge.",No categories identified.
-"In general, this is the most important task.
-To see all the issues already labeled as bugs, you can use this query",No categories identified.
-2.  Use 2-space instead of a tab;,No categories identified.
-"Feature's variables (flag, symbol, color) should use $pure_<type>_<feature> naming pattern:",No categories identified.
-"Here are some things to keep in mind as you file pull requests to fix bugs, add new features, etc.:",No categories identified.
-* See the License for the specific language governing permissions and,No categories identified.
-Contributing,No categories identified.
-"Thank you for contributing to plotly.py! We are actively looking for
-diverse contributors, with diverse background and skills.",No categories identified.
-3.  Submit updates and improvements to the documentation.,No categories identified.
-"If your contribution requires significant or breaking changes, or if you plan to propose a major new feature,
-we recommend you to create an issue on the GitHub with
-a brief proposal and discuss it with us first.",No categories identified.
-- Got a great idea for a new feature? File an issue/request/idea,No categories identified.
-Here are a few simple rules and suggestions to remember when contributing to MonoGame.,No categories identified.
-1.  Fork the material-ui-pickers repository on Github,No categories identified.
-Contributions are welcome and will be fully credited.,No categories identified.
-Thank you,No categories identified.
-"Good pull requests - patches, improvements, new features - are a fantastic
-help. They should remain focused in scope and avoid containing unrelated
-commits.",No categories identified.
-Breaking Changes should start with the word BREAKING CHANGE: with a space or two newlines. The rest of the commit message is then used for this.,No categories identified.
-Code contributions,No categories identified.
-- Please be sure to state which version of node and npm you're using,No categories identified.
-See the introduction for contributors and Contributing Guidelines.,No categories identified.
-Keep in mind the final directories will look like:,No categories identified.
-"- Each time a MAJOR or MINOR version number of a Leon package is increased, then the MINOR version number of the project should also be increased.",No categories identified.
-Issue,No categories identified.
-"You may also want to take a look at our commit & pull request guide and style guides for instructions on how to maintain your fork and submit your code. Before we can merge any pull request, we'll also need you to sign our contributor license agreement.",No categories identified.
-*/,No categories identified.
-Reporting Bugs,No categories identified.
-"* Licensed under the Apache License, Version 2.0 (the ""License"");",No categories identified.
-- package/package_name,No categories identified.
-"Videos demonstrating different ways to use Remmina, the more the merrier!
-The original video is needed, as it will be uploaded to video streaming services, if you need support let us know.
-These would make good topics for videos:",No categories identified.
-"Please do not report security vulnerabilities through public GitHub issues. Instead, please report them to the Microsoft Security Response Center (MSRC). See SECURITY.md for more information.",No categories identified.
-"Whether you're creating a new guide or adding to an existing one, you can
-reference the template guide if you're unsure where to put
-things.",No categories identified.
-"- Get all the latest work from the upstream nltk/nltk repository
-(git pull upstream develop);",No categories identified.
-- Use @since 5.0 instead of @since 5.0.0.,No categories identified.
-Ensure the directory looks like:,No categories identified.
-???????????????????? lerna ????????????????????,No categories identified.
-"cd graphql-php
-composer install",No categories identified.
-"To release a new version on NPM, first ensure all tests pass with npm test,
-then use npm version patch|minor|major in order to increment the version in
-package.json and tag and commit a release. Then git push && git push --tags
-this change so Travis CI can deploy to NPM. Do not run npm publish directly.
-Once published, add release notes.
-Use semver to determine which version part to increment.",No categories identified.
-"$ yarn dev
-# Open a browser on http://localhost:3000.
-# If you change source code, automatically reload your page.",No categories identified.
-"If you have discovered a security issue, do not create a pull request or open a public bug report. Instead, disclose the details of the potential problem to us privately.",No categories identified.
-"- GitHub Actions are used to make sure that the project builds packages as expected on the
-supported platforms, using supported Node.js versions, and that the project conforms to the
-configured coding standards.",No categories identified.
-Stack Overflow is a much better place to ask questions since:,No categories identified.
-"- design-kit
-templates to help bootstrap your design process.",No categories identified.
-$ cd /path/to/your/www/root/,No categories identified.
-"2.  Check if the issue has been fixed — try to reproduce it using the
-latest commits on master in the repository.",No categories identified.
-? Tip: Run the following in PowerShell Core,No categories identified.
-- filename: _pure_my_private_file.fish,No categories identified.
-Test a part of test,No categories identified.
-- void inline node: <img>,No categories identified.
-Contributing should stay up-to-date and be friendly to relatively experienced developers.,No categories identified.
-- general hipster code,No categories identified.
-"(c) The contribution was provided directly to me by some other person
-who certified (a), (b) or (c) and I have not modified it.",No categories identified.
-"When adding or fixing functionality, tests should be added to help reduce future regressions and breakage. All tests are ran automatically when new commits are pushed to a branch. Pull requests with broken/missing tests are not likely to be merged.",No categories identified.
-- test ????,No categories identified.
-"- How you made the change is visible in the code and is therefore rarely necessary to include
-in the commit body message, but why you made the change is often harder to guess and is
-therefore useful to include in the commit body message",No categories identified.
-Contributing,No categories identified.
-5.  #text and void inline node doesn't have children.,No categories identified.
-"Insert here a brief summary of the problem. A good bug summary is ""Chart should render the scales when there's no data"" or ""Errors are visible in the console"". Try to narrow down the bug's circumstances by isolating the relevant factors (does this only happen for a specific type of data, or when using the directive in specific conditions ?)",No categories identified.
-1.  This is the first step,No categories identified.
-"If you're adding new features to Leon, please include tests.",No categories identified.
-8.  Choose a descriptive title and describe your changes briefly.,No categories identified.
-Submitting a Great Patch,No categories identified.
-git branch -D my-fix-branch,No categories identified.
-Pull requests,No categories identified.
-$pure_threshold_command_duration,No categories identified.
-- hotword,No categories identified.
-Generating pacapt script,No categories identified.
-- ???,No categories identified.
-"- When submitting an issue, please follow the guidelines. Especially important is to make sure Yeoman is up-to-date, and providing the command or commands that cause the issue.",No categories identified.
-"Below is our guidance for how to report issues, propose new features, and submit contributions via Pull Requests (PRs).",No categories identified.
-- Maintainability: Helping maintainers understand more about the software they depend upon and the consumers of their software.,No categories identified.
-Running the Tests,No categories identified.
-Coding convention,No categories identified.
-- avoid-semicolon-at-all-cost stupidity,No categories identified.
-Issues,No categories identified.
-- ??????istanbul,No categories identified.
-"- In the vast majority of cases, you should test your bug fix/feature.",No categories identified.
-"-t ""extraResources - one-package"" globTest.js",No categories identified.
-6.  Visit GitHub and make your pull request.,No categories identified.
-"2.  What you expected it to do (""I expected it to audit google.com and www.google.com"")",No categories identified.
-"If you encounter a problem and know it is caused by eclipse.jdt.ls, then please open a bug report over there.
-In doubt, you can report issues in the vscode-java issue tracker.",No categories identified.
-Contact coreteam@pfsense.org with any additional questions or concerns.,No categories identified.
-- ?? TSLint ??????,No categories identified.
-"(plotly_dev) $ pip install -r packages/python/plotly/requirements.txt
-(plotly_dev) $ conda install fiona
-(plotly_dev) $ pip install -r packages/python/plotly/optional-requirements.txt",No categories identified.
-"- If the commit is non-trivial, please provide more detailed information in the commit body
-message",No categories identified.
-Please note that we will flag the issue as feature request and then close it. We check requests on regular base and when we decide to implement a feature we set a milestone and re-open the ticket.,No categories identified.
-"This is thrown whenever your session is invalid.
-You can fix it by not loading the session/cookies.
-Most of the time you'll face another error afterwards.",No categories identified.
-- Levels defined in JUnit's Logger fa,No categories identified.
-result.filter(function () { /* ... */ });,No categories identified.
-Submitting Changes,No categories identified.
-To build project: yarn && yarn compile,No categories identified.
-"- In general, logging should be used sparingly.",No categories identified.
+﻿Paragraph,Prediction
+Reviewing pull requests,https://github.com/minetest/minetest
+- PEP 8 Style Guide for Python Code (python.org),https://github.com/explosion/spaCy
+Contributing,https://github.com/rotorgames/Rg.Plugins.Popup
+"- If you've changed APIs, update the documentation.",https://github.com/sveltejs/svelte
+"A lot of effort has gone into refactoring and getting this library into a state where it is thoroughly unit tested. This has really paid off and we want to maintain the same diligence with unit testing for as long as this library is maintained. All pull requests must have accompanying unit tests. PR's without unit tests will, most likely, be rejected. The unit testing framework of choice is spock. There are lots of examples in the existing code base and the existing contributors are more than happy to help out with unit testing. Make sure there are tests that cover the change.",https://github.com/springfox/springfox
+Please search the issue tracker for a similar idea first: there may already be an issue you can contribute to.,https://github.com/microsoft/onnxruntime
+"*/
+onHide: myCustomPropType
+}",https://github.com/react-bootstrap/react-bootstrap
+"- Rebuild PHP with --enable-zts to check your change compiles and operates
+correctly in a thread safe PHP.",https://github.com/php/php-src
+Type,https://github.com/nrwl/nx
+*,https://github.com/facebook/docusaurus
+"4.  Do write your commit message in such a way that it makes sense even without
+the corresponding diff. One should be able to look at it, and immediately
+know what was modified. Definitely include the function name in the message
+as shown below.",https://github.com/php/php-src
+Development,https://github.com/DestinyItemManager/DIM
+"gulp.watch() is using chokidar for file watching. It's actually wrapped in a
+small library on the gulp organization, glob-watcher.",https://github.com/gulpjs/gulp
+"A changelog is a file which contains a curated, chronologically ordered list of notable changes for each version of a project.",https://github.com/elastic/logstash
+Development Tools,https://github.com/spockframework/spock
+Contributor Guidelines,https://github.com/mike-ward/Markdown-Edit
+- Commands,https://github.com/jaredpalmer/razzle
+"Submit a :+1: (+1) or ""Looks good"" comment to show you believe the pull-request should be merged. ""Looks good"" comments often signify that the patch might require (more) testing.",https://github.com/minetest/minetest
+"In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to making participation in our project and our community a harassment-free experience for everyone, regardless of age, body size, disability, ethnicity, gender identity and expression, level of experience, nationality, personal appearance, race, religion, or sexual identity and orientation.",https://github.com/kubeapps/kubeapps
+"Sometimes, unexpected behavior can happen in your project. In such case,
+understand that:",https://github.com/godotengine/godot
+"3.  Open chrome://inspect in Chrome and select the remote target to use
+DevTools for debugging.",https://github.com/ionic-team/ionic-cli
+"- If you encounter significant cleanup required mid-way through your work try to isolate that as a separate commit.
+This is not to say ever single minute cleanup needs to be in its own commit, just the large chunks of cleanup.",https://github.com/springfox/springfox
+Code changes,https://github.com/znc/znc
+4.  Make your changes in a new git branch:,https://github.com/scullyio/scully
+Specify the platform,https://github.com/godotengine/godot
+"2.  Log into the Accounts Portal, and click on the 'Eclipse Contributor Agreement' link.",https://github.com/eclipse/mosquitto
+"2.  If you've added code that should be tested, add test code to the RXPTest sample app.",https://github.com/microsoft/reactxp
+Legal,https://github.com/eclipse/mosquitto
+"This is often caused by missing CA certificates.
+Try reimporting the certificates in this case:",https://github.com/Jackett/Jackett
+- common,https://github.com/vendure-ecommerce/vendure
+- Make sure to create .lock files for your application under /install/,https://github.com/liaralabs/swizzin
+"- The packages are base packages of the Express.Js framework and can therefore be considered stable, safe and mature. Examples: cookie-parser, morgan.",https://github.com/FoalTS/foal
+- Include keywords like [New Tracker] or [Feature] at the beginning of the title,https://github.com/Jackett/Jackett
+How to Contribute to an Open Source Project on GitHub,https://github.com/facebook/docusaurus
+"When updating your fork with upstream changes, please use git pull --rebase
+to avoid creating ""merge commits"". Those commits unnecessarily pollute the git
+history when coming from PRs.",https://github.com/godotengine/godot
+$ npm run release,https://github.com/shivammathur/setup-php
+- Don't change the version. The maintainers will handle that when they release.,https://github.com/jnunemaker/httparty
+Feature Requests,https://github.com/hishamhm/htop
+- Knowledge of WiFi Deauth for understanding the project.,https://github.com/SpacehuhnTech/esp8266_deauther
+"Aside from coding, you can also help by triaging the issues list. Check for bugs that are 'Unconfirmed' and try to confirm them on your end, working out any details that may be necessary. Check for bugs that do not conform to Bug reporting guidelines and improve them to do so!",https://github.com/OpenMW/openmw
+"- ""master"" contains the most recently released code (old versions are not maintained).",https://github.com/mike42/escpos-php
+- camelCase for public variable names and methods.,https://github.com/sveltejs/svelte
+"The preferred way to report bugs or request features is to use
+GitHub issues. Before
+opening an issue, read these pointers.",https://github.com/xtermjs/xterm.js
+"In order to accept your pull request, we need you to submit a CLA. You only need",https://github.com/TorchCraft/TorchCraft
+- Introduction,https://github.com/Dogfalo/materialize
+- Run npm install -g gulp and npm install in '/vscode-chrome-debug',https://github.com/microsoft/vscode-chrome-debug
+- The first line should:,https://github.com/minetest/minetest
+"So, you've decided you want to help make Jackett a better program for everyone. Not everyone chooses to help, so we thank you for your decision.
+In order to help us make the most of your contribution please take the time to read these contributing guidelines.
+These are just guidelines, not hard rules. Use your best judgment, and feel free to propose changes to this document in a pull request.",https://github.com/Jackett/Jackett
+Developing,https://github.com/doczjs/docz
+"- Fix My Prose: Dammit Jim, I'm a programmer, not an English major.",https://github.com/mike-ward/Markdown-Edit
+- Contributing to Godot's translation,https://github.com/godotengine/godot
+"The bigger the pull request, the longer it will take to review and merge. Try to break down large pull requests in smaller chunks that are easier to review and merge.
+It is also always helpful to have some context for your pull request. What was the purpose? Why does it matter to you?",https://github.com/overtrue/wechat
+- Two packages using the same @types module but with different versions may not work properly together.,https://github.com/FoalTS/foal
+Join our Discord Channel,https://github.com/facebook/docusaurus
+- Authors and reviewers should proactively address questions of pacing in order to reach an acceptable balance between meeting the author's expected timeline for merging the PR and the reviewer's ability to keep up with revisions to the PR.,https://github.com/elastic/logstash
+- refactor (refactoring production code),https://github.com/vendure-ecommerce/vendure
+- packages/@ionic/utils-subprocess: Subprocess library that uses cross-spawn for Node.js.,https://github.com/ionic-team/ionic-cli
+- Give your Pull Request a descriptive title,https://github.com/Jackett/Jackett
+- Fix login handling for xxx tracker,https://github.com/Jackett/Jackett
+Finally we can check the branch status and print accordingly:,https://github.com/geometry-zsh/geometry
+"Before we can use your code, you must sign the
+Google Individual Contributor License Agreement
+(CLA), which you can do online. The CLA is necessary mainly because you own the copyright to your changes, even after your contribution becomes part of our codebase, so we need your permission to use and distribute your code. We also need to be sure of various other things. For instance that you'll tell us if you know that your code infringes on other people's patents. You don't have to sign the CLA until after you've submitted your code for review and a member has approved it, but you must do it before we can put your code into our codebase.",https://github.com/googledatalab/datalab
+- Make sure your code follows GitHub and Jackett's standards and practices.,https://github.com/Jackett/Jackett
+"If have no intentions to release the change immediately after merging the pull request
+then you should still create an entry in the changelog, using the word Unreleased as the version. Example:",https://github.com/elastic/logstash
+"NO_STATUS_CODE_FRO Response headers:
+cache-control=s-maxage=0
+connection=close
+content-type=text/plain; charset=utf-8
+date=Wed, 19 Jun 2019 18:01:37 GMT
+server=now
+strict-transport-security=max-age=63072000
+transfer-encoding=chunked
+x-now-id=iad1:hgtzj-1560967297876-44ae12559f95
+x-now-trace=iad1]",https://github.com/vercel/vercel
+5.  Reiterate.,https://github.com/FoalTS/foal
+- website-1.x/versioned_docs/version-X.Y.Z - These are the docs for the X.Y.Z version at https://docusaurus.io/docs/en/X.Y.Z/installation.,https://github.com/facebook/docusaurus
+Submitting code,https://github.com/onivim/oni
+"- Committers aren't allowed to merge their own changes, the exception being bug fixes",https://github.com/dropwizard/dropwizard
+"- Sharing long blocks of code or logs: If you need to include long code,
+logs or tracebacks, you can wrap them in <details> and </details>. This
+collapses the content
+so it only becomes visible on click, making the issue easier to read and follow.",https://github.com/explosion/spaCy
+"Pull requests are welcome, but make sure that your changes respect the 2 points in PR template:",https://github.com/mbasso/asm-dom
+Contributing to ReactXP,https://github.com/microsoft/reactxp
+"I certify that I own, and have sufficient rights to contribute, all source code and related material intended to be compiled or integrated with the source code for the #develop open source product (the ""Contribution""). My Contribution is licensed under the MIT License.",https://github.com/icsharpcode/SharpDevelop
+- A summary of your bug report. This is generally a quick sentence or two to describe the issue in human terms.,https://github.com/Rapptz/discord.py
+We have a list of beginner friendly issues to help you get your feet wet in the Docusaurus codebase and familiar with our contribution process. This is a great place to get started.,https://github.com/facebook/docusaurus
+"- Use username/user: openemr, password: openemr .",https://github.com/openemr/openemr
+- Check existing comments to ensure that they are not misleading.,https://github.com/openstreetmap/openstreetmap-website
+- The PHP RFC wiki,https://github.com/PHPCompatibility/PHPCompatibility
+Unit testing,https://github.com/elastic/cookbook-elasticsearch
+"4.  If you are fixing a bug, then create a new branch from the latest
+fixes branch with git checkout -b YOUR_BRANCH_NAME origin/fixes",https://github.com/eclipse/mosquitto
+- https://www.ruby-lang.org/ - The homepage of Ruby which has more links and some great tutorials.,https://github.com/openstreetmap/openstreetmap-website
+"- To list the available certificate packages on docker:
+docker exec -i $(docker ps | grep _openemr | cut -f 1 -d "" "") sh -c '/root/devtools list-client-certs'",https://github.com/openemr/openemr
+Labels (optional):,https://github.com/elastic/logstash
+"There are a small number of PHPUnit unit tests. To get up and running, copy .env.example to .env and add your API key details. Unit testing against an API is obviously a bit tricky, but I'd welcome any contributions to this. It would be great to have more test coverage.",https://github.com/drewm/mailchimp-api
+"- Do you need the feature to get basic things done? We do want spaCy to be
+at least somewhat self-contained. If we keep needing some feature in our
+recipes, that does provide some argument for bringing it ""in house"".",https://github.com/explosion/spaCy
+"- Prefer modern language enhancements (C#7, C#8 features)",https://github.com/Jackett/Jackett
+"- Maintainer - A maintainer communicates goals and drives the vision for the project. The maintainer is responsible for breaking down hurdles and supporting contributors. In addition, the maintainer triages issues, produces releases, assigns bounties, and establishes completion criteria. Today, there is one maintainer, but that isn't a strict requirement.",https://github.com/onivim/oni
+@zeit/node-file-trace,https://github.com/vercel/vercel
+- Financially pledge using gittip.,https://github.com/sferik/twitter
+- Guidelines:,https://github.com/onivim/oni
+Contributing,https://github.com/srdja/Collections-C
+Lien,https://github.com/Piwigo/Piwigo
+"try:
+do_something()
+except:  # noqa: E722
+# This bare except is justified, for some specific reason
+do_something_else()",https://github.com/explosion/spaCy
+- 2.x (legacy version),https://github.com/ionic-team/ionic-cli
+"- If you haven't already, install git for your system",https://github.com/openemr/openemr
+git fetch upstream,https://github.com/srdja/Collections-C
+- Please close your own issue once it is resolved.,https://github.com/Dogfalo/materialize
+- Open your OS,https://github.com/mrdoob/three.js
+i18n,https://github.com/openstreetmap/openstreetmap-website
+"First, thank you for considering contributing to wechat! It's people like you that make the open source community such a great community! ?",https://github.com/overtrue/wechat
+"When a change made on GitHub is approved, it will be checked by our continuous integration system, CircleCI.",https://github.com/facebook/docusaurus
+"On IRC, please avoid using overtly sexual nicknames or other nicknames that
+might detract from a friendly, safe and welcoming environment for all.",https://github.com/gulpjs/gulp
+- Write a good commit message.,https://github.com/snozbot/fungus
+- Don't modify history older than 10 minutes.,https://github.com/minetest/minetest
+- Add feature yyy,https://github.com/Jackett/Jackett
+"Programming is not a required skill, and there are many ways to help out!
+It is more important to us that you are able to contribute.",https://github.com/elastic/logstash
+Opening issues effectively,https://github.com/xtermjs/xterm.js
+"The development branch is the active branch, no features or bugs will be fixed against master ( hotfixes may be considered ).",https://github.com/tzapu/WiFiManager
+- yarn.lock or package-lock.json,https://github.com/nrwl/nx
+- @required: to mark a prop as required (use the normal React isRequired if possible),https://github.com/react-bootstrap/react-bootstrap
+On GitHub you should see your branch (with commits) that you pushed before like this:,https://github.com/Piwigo/Piwigo
+"A good way to familiarize yourself with the codebase and contribution process is to look for and tackle low-hanging fruits in the issue tracker. Before embarking on a more ambitious contribution, please quickly get in touch with us. This will help to make sure that the contribution is aligned with Spock's overall direction and goals, and gives us a chance to guide design and implementation where needed.",https://github.com/spockframework/spock
+- All CLI commands are built here and imported on docz package using ./bin script.,https://github.com/doczjs/docz
+Learn how we deal with translations.,https://github.com/gitextensions/gitextensions
+"1.  Use the GitHub issue search — check if the issue has already been
+reported.",https://github.com/SpacehuhnTech/esp8266_deauther
+- Tell us information about your environment. What version of discord.py are you using? How was it installed? What operating system are you running on? These are valuable questions and information that we use.,https://github.com/Rapptz/discord.py
+To manually enable the classic notebook server extension:,https://github.com/voila-dashboards/voila
++----------------------------------------------------------------------+,https://github.com/php/php-src
+"1.  If you want to add a feature or make some change to DIM, consider filing an issue describing your idea first. This will give the DIM community a chance to discuss the idea, offer suggestions and pointers, and make sure what you're thinking of fits with the style and direction of DIM. If you want a more free-form chat, join our Discord.",https://github.com/DestinyItemManager/DIM
+- Fixed incorrect serialization of input data when encoding was `Emacs-Mule` [#84](http://example.org),https://github.com/elastic/logstash
+Issues,https://github.com/facebook/redex
+"3.  If you've changed APIs, update the documentation.",https://github.com/robotmedia/RMStore
+"- Mention precisely what went wrong. What did you expect to happen? What happened instead? Describe the
+exact steps a maintainer has to take to make the problem occur.",https://github.com/xtermjs/xterm.js
+- Please use the shorthand #123 and not the full URL.,https://github.com/Rapptz/discord.py
+- Ask for more information if you believe the issue does not provide all the details required to solve it.,https://github.com/sveltejs/svelte
+- Fork the project.,https://github.com/rubocop-hq/rubocop
+- clone the docusaurus repo.,https://github.com/facebook/docusaurus
+Guidelines,https://github.com/dropwizard/dropwizard
+Do you have questions about the source code?,https://github.com/web3j/web3j
+"4.  Install the root dependencies.
+npm install",https://github.com/FoalTS/foal
+"Dropwizard is always looking for people to contribute to the project. We welcome your
+feedback and want to listen and discuss your ideas and issues.",https://github.com/dropwizard/dropwizard
+"The file objects themselves are vinyl objects: that's another library (a simple
+one!)",https://github.com/gulpjs/gulp
+JupyterLab extension,https://github.com/voila-dashboards/voila
+"Up-to-date documentation makes all our lives easier. If you are adding a new feature,
+enhancing an existing feature, or fixing an issue, please add or modify the documentation
+as needed and include it with your pull request.",https://github.com/dropwizard/dropwizard
+"For general documentation about contributing to Jupyter projects, see the Project Jupyter Contributor Documentation.",https://github.com/voila-dashboards/voila
+"2.  Decide which code you want to submit. A submission should be a set of changes
+that addresses one issue in the issue tracker.
+Please don't mix more than one logical change per submission, because it makes
+the history hard to follow. If you want to make a change
+(e.g. add a sample or feature) that doesn't have a corresponding issue in the
+issue tracker, please create one.",https://github.com/google/leveldb
+"- Your example should be minimalistic and concise, or a direct copy of another prominent example from the original library (like copying an example directly from react-redux).",https://github.com/jaredpalmer/razzle
+"We appreciate your effort, and want to avoid a situation where a contribution requires extensive rework (by you or by us), sits in the queue for a long time, or cannot be accepted at all!",https://github.com/spockframework/spock
+Found a bug?,https://github.com/pwittchen/ReactiveNetwork
+"When submitting a pull request, please make sure to fork the repository and create a
+separate branch for your feature or fix for an issue.",https://github.com/dropwizard/dropwizard
+- expose a template and cookbook setting for any file that you might want to modify,https://github.com/elastic/cookbook-elasticsearch
+"Examples of behavior that contributes to creating a positive environment
+include:",https://github.com/kubeapps/kubeapps
+Integration tests can be executed using rake integration or kitchen test.,https://github.com/elastic/cookbook-elasticsearch
+"- on-hold Issues or pull that should be worked on, but for any reason it won't be worked on/accepted as a PR anytime soon.",https://github.com/Dogfalo/materialize
+When developing or debugging a role it can be useful to run molecule create and molecule converge separately. Then you can use molecule login to SSH into the test environment.,https://github.com/kubernetes-sigs/kubespray
+"When submitting code, please make every effort to follow existing conventions
+and style in order to keep the code as readable as possible. Please also make
+sure your code compiles, passes the tests and the checkstyle configured for this repository.",https://github.com/Karumi/Dexter
+Pull requests for bugs are more than welcome - please explain the bug you're trying to fix in the message.,https://github.com/drewm/mailchimp-api
+- Go into the three.js directory.,https://github.com/mrdoob/three.js
+flake8 spacy,https://github.com/explosion/spaCy
+"3.  Submitting: When you are ready to submit, send us a Pull Request. Be
+sure to include the issue number you fixed and the name you used to sign
+the CLA.",https://github.com/google/leveldb
+Submitting patches,https://github.com/rack/rack-contrib
+"- If this is your first contribution to RuboCop project, add a link definition for the implicit link to the bottom of the changelog as [@username]: https://github.com/username.",https://github.com/rubocop-hq/rubocop
+"If you would like to request a new feature or enhancement but are not yet thinking about opening a pull request, you can also file an issue with feature template.",https://github.com/facebook/docusaurus
+- Documentation: Found a typo or strangely worded sentences? Submit a PR!,https://github.com/mrmlnc/fast-glob
+"7.  Good luck! :muscle: Please open an issue if you have questions or something
+is unclear.",https://github.com/ionic-team/ionic-cli
+"The tests are automatically run on Pull Requests and other commits with the
+results shown on Travis CI.",https://github.com/openstreetmap/openstreetmap-website
+Documentation,https://github.com/Dogfalo/materialize
+- docs: Documentation only changes,https://github.com/scullyio/scully
+"1.  To only run a specific spec at a time, to avoid wasting your time running all our other tests, you can set the flag --filter. For example:",https://github.com/Dogfalo/materialize
+Example:,https://github.com/SpacehuhnTech/esp8266_deauther
+- Suprising us with some other form of contribution!,https://github.com/spockframework/spock
+Feature Requests,https://github.com/ionic-team/ionic-cli
+Note: Unfortunately there are currently some issues with Intellij's Gradle support that prevent integration with the Spock project. Please use the method described above rather than importing the top-level build.gradle file.,https://github.com/spockframework/spock
+- Debug with node --inspect-brk ./node_modules/jest/bin/jest.js build/e2e/cypress.test.js,https://github.com/nrwl/nx
+"Now your fork is up to date. This should be done regularly, or before you send a pull request at least.",https://github.com/tastyigniter/TastyIgniter
+"- We have no way of knowing what the original developers really intended (short of asking them, good luck with that).",https://github.com/OpenMW/openmw
+Packages,https://github.com/doczjs/docz
+1.  simple definitions (.yml / YAML),https://github.com/Jackett/Jackett
+"If the bug report is missing this information then it'll take us longer to fix the issue. We will probably ask for clarification, and barring that if no response was given then the issue will be closed.",https://github.com/Rapptz/discord.py
+PRs against master may be kept open if provides something useful to other members.,https://github.com/tzapu/WiFiManager
+"git clone git@github.com:doczjs/docz.git
+cd docz",https://github.com/doczjs/docz
+fix(release): need to depend on latest ng-lib,https://github.com/scullyio/scully
+Philosophies,https://github.com/jasperproject/jasper-client
+"If you wish to contact us about any security vulnerability in TastyIgniter you may find, please send an e-mail to Samuel Adepoyigi at sam@sampoyigi.com",https://github.com/tastyigniter/TastyIgniter
+All code in this repo is MIT licensed.,https://github.com/stilliard/docker-pure-ftpd
+- Improving or enhancing our documentation,https://github.com/dropwizard/dropwizard
+Dependencies (except peer ones) should point to minor versions (~1.2.0 instead of ^1.2.0).,https://github.com/FoalTS/foal
+Contributing to Surround 360,https://github.com/facebook/Surround360
+If you only want to make content changes you just need to know about versioned docs.,https://github.com/facebook/docusaurus
+"- Semantic versioning is often not respected, which causes the code to break between two patch versions.",https://github.com/FoalTS/foal
+Our Development Process,https://github.com/facebook/docusaurus
+"Many bugs can't be reproduced unless specific steps are taken. Please specify
+the exact steps that must be taken to reproduce the condition, and try to
+keep them as minimal as possible. If you're describing a procedure to follow
+in the editor, don't hesitate to include screenshots.",https://github.com/godotengine/godot
+"git pull origin stable
+git checkout develop
+git rebase stable
+git push origin develop",https://github.com/ionic-team/ionic-cli
+Breaking Changes,https://github.com/facebook/docusaurus
+Pull requests implementing RFCs should be submitted against master.,https://github.com/php/php-src
+Thank you to all our sponsors! (please ask your company to also support this open source project by becoming a sponsor),https://github.com/onivim/oni
+"# check if command exists for function to be useful
+(( $+commands[command_i_need_to_work] )) || return",https://github.com/geometry-zsh/geometry
+Making Changes,https://github.com/mrmlnc/fast-glob
+Bug reports,https://github.com/SpacehuhnTech/esp8266_deauther
+Project Structure,https://github.com/jaredpalmer/razzle
+The list of people with committer access is kept in the developer section of the pom.xml located in the parent directory.,https://github.com/dropwizard/dropwizard
+"- To test client based certificates, create a zip package of the certificate in OpenEMR at Administration->System->Certificates. Then can import this zip package (example ssl.zip) into the docker via:
+docker cp ssl.zip $(docker ps | grep _openemr | cut -f 1 -d "" ""):/certs/",https://github.com/openemr/openemr
+Visit the issue tracker to find a list of open issues that need attention.,https://github.com/mbasso/asm-dom
+"Want to contribute bugfixes or non-output-modifying changes (e.g. speedups)?
+Great! First, read this page (including the small print at the end). Want to
+contribute changes that modify the generated JPEG file? Talk to us first.",https://github.com/google/guetzli
+- Create your Pull Request,https://github.com/Jackett/Jackett
+All tests are located in /test folder.,https://github.com/sveltejs/svelte
+Return codes,https://github.com/liaralabs/swizzin
+Contributing Documentation and Code Changes,https://github.com/elastic/logstash
+git tag v$VERSION,https://github.com/snabbdom/snabbdom
+Security Bugs,https://github.com/facebook/docusaurus
+"Before you submit an issue, please search the issue tracker. An issue for your problem may already exist and has been resolved, or the discussion might inform you of workarounds readily available.",https://github.com/nrwl/nx
+- Suggest your change in the gitter channel then start writing code.,https://github.com/web3j/web3j
+"4.  Optionally npm run link to make ionic and other bin files point to your
+dev CLI.",https://github.com/ionic-team/ionic-cli
+Proposing new public APIs,https://github.com/microsoft/onnxruntime
+"All contributions are welcome to be submitted for review for inclusion, but before
+they will be accepted, we ask that you follow these simple guidelines:",https://github.com/dropwizard/dropwizard
+"- ""Bug"": Something that should work is broken",https://github.com/microsoft/vscode-chrome-debug
+"# This will automatically bump versions as necessary and update CHANGELOG files:
+yarn changeset version",https://github.com/FormidableLabs/urql
+"Commit messages should follow the commit message convention so, changelogs could be generated automatically by that. Commit messages are validated automatically upon commit. If you aren't familiar with the commit message convention, you can use yarn commit (or npm run commit) instead of git commit, which provides an interactive CLI for generating proper commit messages.",https://github.com/doczjs/docz
+make test,https://github.com/mbasso/asm-dom
+"YourKit Java Profiler
+YourKit .NET Profiler",https://github.com/Red5/red5-server
+- Reasoning / motivation behind the change,https://github.com/OpenMW/openmw
+2.  Contributing to the code base,https://github.com/explosion/spaCy
+Any code change should be submitted as a pull request. The description should explain what the code does and give steps to execute it. The pull request should also contain tests.,https://github.com/overtrue/wechat
+"See this page for an overview of
+the system we use to tag our issues and pull requests.",https://github.com/explosion/spaCy
+- storybook - anything Storybook specific,https://github.com/nrwl/nx
+- GitHub pull request documentation,https://github.com/Red5/red5-server
+"- For Docusaurus 1 development, run yarn start:v1",https://github.com/facebook/docusaurus
+"? For more guidelines and information on how to add tests, check out the tests README.",https://github.com/explosion/spaCy
+This project exists thanks to all the people who contribute.,https://github.com/doczjs/docz
+"The issues section is for bug reports and feature requests only. If you need help, please use the forum or stackoverflow.",https://github.com/mrdoob/three.js
+- ...,https://github.com/EricssonResearch/openwebrtc
+Feature requests,https://github.com/SpacehuhnTech/esp8266_deauther
+"- Copy the capsule from the docker to your current directory (using example.tgz below):
+docker cp $(docker ps | grep _openemr | cut -f 1 -d "" ""):/snapshots/example.tgz .",https://github.com/openemr/openemr
+"- Remove the testing sql ssl CA cert and testing sql ssl client key/cert:
+docker exec -i $(docker ps | grep _openemr | cut -f 1 -d "" "") sh -c '/root/devtools sql-ssl-client-off'",https://github.com/openemr/openemr
+A framework/CMS/polyfill specific ruleset will generally contain <exclude ...> directives for backfills/polyfills provided by the framework/CMS/polyfill to prevent false positives.,https://github.com/PHPCompatibility/PHPCompatibility
+Pull Requests,https://github.com/facebook/redex
+- Write clean code and test it.,https://github.com/Karumi/Dexter
+"In order to accept your pull request, we need you to submit a CLA. You only need to do this once, so if you've done this for another Facebook open source project, you're good to go. If you are submitting a pull request for the first time, the Facebook GitHub Bot will reply with a link to the CLA form. You may also complete your CLA here.",https://github.com/facebook/docusaurus
+"- Language Translations: Check out the languages folder. It's only
+two files. You don't have to integrate it into the program unless
+you want to. You did the hard part of translating. I'm more than
+happy to incorporate the changes into the program.",https://github.com/mike-ward/Markdown-Edit
+This makes Voilhttp://localhost:8888/voila/tree.,https://github.com/voila-dashboards/voila
+"Developer Certificate of Origin
+Version 1.1",https://github.com/kubeapps/kubeapps
+"check-webkit-style -f -readability/naming/underscores,-readability/enum_casing,-readability/parameter_name,-build/header_guard $@",https://github.com/EricssonResearch/openwebrtc
+"If you have any questions, create an issue (protip: do a quick search first to see if someone else didn't ask the same question before!).
+You can also reach us at hello@oni.opencollective.com.",https://github.com/onivim/oni
+- Document Storage Method->CouchDB,https://github.com/openemr/openemr
+- Ask any question about how to use web3j should be directed to the gitter channel,https://github.com/web3j/web3j
+"Note: Occasionally issues are opened that are unclear, or we cannot verify them. When the issue author has not responded to our questions for verification within 7 days then we will close the issue.",https://github.com/react-bootstrap/react-bootstrap
+"5.  When everything is ready for merge, clean up the branch (rebase with master to synchronize, squash, edit commits, etc) to prepare for it to be merged.",https://github.com/elastic/cookbook-elasticsearch
+"This blog post
+outlines the process used by core developers when assessing PRs. We strongly
+recommend that you have a look at it to know what's important to take into
+account for a PR to be considered for merging.",https://github.com/godotengine/godot
+"Similar rules can be applied when contributing bug fixes - it's always best to
+discuss the implementation in the bug report first if you are not 100% about
+what would be the best fix.",https://github.com/godotengine/godot
+Style and Best Practices,https://github.com/elastic/cookbook-elasticsearch
+"# Jest Tests (for all packages):
+yarn run test",https://github.com/FormidableLabs/urql
+type may be one of:,https://github.com/vendure-ecommerce/vendure
+"If fixing a bug in IWYU, please add a test to the test suite!  You can create a file called whatever.cc (not .cpp), and, if necessary, whatever.h, and whatever-<extension>.h.  You may be able to get away without adding any .h files, and just including direct.h -- see, for instance, tests/remove_fwd_decl_when_including.cc.",https://github.com/include-what-you-use/include-what-you-use
+Implementation Language,https://github.com/spockframework/spock
+- The official support server: https://discord.gg/r3sSKJJ,https://github.com/Rapptz/discord.py
+You can file new issues by filling out our issue form.,https://github.com/nrwl/nx
+What's a CHANGELOG file?,https://github.com/elastic/logstash
+16. Developer tools to place/remove testing sql ssl certificate and testing sql ssl client key/cert.,https://github.com/openemr/openemr
+Pull requests are welcome.,https://github.com/mevdschee/php-crud-api
+"Contributor License Agreement (""CLA"")",https://github.com/TorchCraft/TorchCraft
+2.  advanced (native) indexers (.cs / C#),https://github.com/Jackett/Jackett
+Including the issue number that the PR relates to also helps with tracking.,https://github.com/nrwl/nx
+"If you are using SourceTree or another kind of visual git application, enter the url to your fork in the add new repository field.",https://github.com/rotorgames/Rg.Plugins.Popup
+"We welcome any type of contribution, not only code. You can help with",https://github.com/overtrue/wechat
+"7.  Run open coverage/index.html. If your changes are not completely covered
+by your tests, return to step 3.",https://github.com/sferik/twitter
+"* Copyright (c) Facebook, Inc. and its affiliates.",https://github.com/facebook/docusaurus
+Coding Style and License,https://github.com/facebook/Surround360
+Pull requests,https://github.com/php/php-src
+Pull Request Process,https://github.com/versatica/mediasoup
+$ code .,https://github.com/mrmlnc/fast-glob
+- Add a section if needed.,https://github.com/vinta/awesome-python
+License,https://github.com/TorchCraft/TorchCraft
+"Since mid 2018, framework/CMS/polyfill specific rulesets will be accepted to be hosted in separate repositories in the PHPCompatibility organisation. If you are interested in adding a ruleset for a framework/CMS/PHP polyfill library, you can request a repository for it by opening an issue in this repo.",https://github.com/PHPCompatibility/PHPCompatibility
+3.  Code conventions,https://github.com/explosion/spaCy
+Contributing Code,https://github.com/Jackett/Jackett
+"Commit messages are linted on commit, so you'll know if your message is not quite right.",https://github.com/vendure-ecommerce/vendure
+"- I must put up atomic PRs. This helps the reviewer of the PR do a high quality review fast. ""Atomic"" here means two things:",https://github.com/elastic/logstash
+Contributors,https://github.com/doczjs/docz
+Development,https://github.com/FormidableLabs/urql
+"- Snippets, Templates, and Themes: Got a cool theme or some killer
+snippets? Send them to me. Better yet, open an issue and put them
+there so we can all see and comment on them.",https://github.com/mike-ward/Markdown-Edit
+WARNING Box,https://github.com/yugabyte/yugabyte-db
+- iwyu_getopt.cc: portability shim for GNU getopt(_long). Custom getopt(_long) implementation for Windows.,https://github.com/include-what-you-use/include-what-you-use
+- Comments must not exceed 80 columns (split into different lines if necessary).,https://github.com/versatica/mediasoup
+bundle exec rake test,https://github.com/openstreetmap/openstreetmap-website
+"3.  Ensure that your code conforms to PEP8 and our existing code standards. For example, we used camel case in a few places (this could be changed--send in a pull request!). In general, however, defer to PEP8. We also really like Jeff Knupp's Writing Idiomatic Python. We use flake8 to check this, so run it from Jasper's main folder before committing.",https://github.com/jasperproject/jasper-client
+"Hello, and thank you so much for taking your time to contribute in any way to
+htop! There are many ways to contribute, and I'll try to list them below. The
+support from the free software community has been amazing over the years and
+it is the number one thing that keeps me going, maintaining and improving
+something that started as a tiny pet project back in 2004 and that nowadays is
+a piece of software used all over the world, in both reality and
+fiction!. Cheers!",https://github.com/hishamhm/htop
+- Get the xterm.js demo running.,https://github.com/xtermjs/xterm.js
+Content Pages,https://github.com/yugabyte/yugabyte-db
+3.  Increase the version numbers in any examples files and the README.md to the new version that this Pull Request would represent. The versioning scheme we use is SemVer.,https://github.com/kubeapps/kubeapps
+The PHPCompatibility standard only concerns itself with cross-version PHP compatibility of code.,https://github.com/PHPCompatibility/PHPCompatibility
+- Single line statements do not use braces,https://github.com/Jackett/Jackett
+- It's best to also add an upstream origin to keep your local fork up to date. Check out this guide for more info.,https://github.com/openemr/openemr
+Becoming a collaborator,https://github.com/onivim/oni
+"- Include information about the browser in which the problem occurred. Even
+if you tested several browsers, and the problem occurred in all of them,
+mention this fact in the bug report. Also include browser version numbers and
+the operating system that you're on.",https://github.com/xtermjs/xterm.js
+Our Development Process,https://github.com/facebook/redex
+- You want to help lower the burden to first time contributors,https://github.com/gulpjs/gulp
+How to become a contributor and submit your own code,https://github.com/kubernetes-sigs/kubespray
+Running tests,https://github.com/sveltejs/svelte
+"- Where appropriate, modify existing tests to reflect new or changed
+functionality.",https://github.com/openstreetmap/openstreetmap-website
+- Issues without a Codepen (where applicable) will be closed or ignored.,https://github.com/Dogfalo/materialize
+"3.  For any change that you make, please try to also add a test case(s) in the tests/unit directory. This helps us understand the issue and make sure that it will stay fixed forever.",https://github.com/tastyigniter/TastyIgniter
+Contributing,https://github.com/snabbdom/snabbdom
+Signed-off-by: Michael Nelson <minelson@vmware.com>,https://github.com/kubeapps/kubeapps
+12. Developer tools to send/receive snapshots (via capsules) that are created above in item 11.,https://github.com/openemr/openemr
+"8.  In GitHub, send a pull request to scully:main.",https://github.com/scullyio/scully
+"- Support Ruby 2.2 and higher.  We maintain the same Ruby version
+compatibility as Rack itself.  We use Travis CI test
+runs to validate this.",https://github.com/rack/rack-contrib
+1.  Fork the repository and create your branch from master.,https://github.com/sveltejs/svelte
+Building,https://github.com/mbasso/asm-dom
+- The FAQ in the documentation,https://github.com/Rapptz/discord.py
+- yarn run test: Runs all tests,https://github.com/jaredpalmer/razzle
+- react - anything React specific,https://github.com/nrwl/nx
+- Code,https://github.com/EricssonResearch/openwebrtc
+"Check out the list of outstanding pull requests if there is something you might
+be interested in. Maybe somebody is trying to fix that stupid bug that bothers
+you. Review the PR. Do you have any better ideas how to fix this problem? Let us
+know.",https://github.com/react-bootstrap/react-bootstrap
+The core Docusaurus team will be monitoring for pull requests. Do help us by keeping pull requests consistent by following the guidelines above.,https://github.com/facebook/docusaurus
+npm test,https://github.com/mrdoob/three.js
+The directory src/generate/ contains the source code of the commands foal createapp and foal generate.,https://github.com/FoalTS/foal
+All pull requests should be opened against the master branch.,https://github.com/facebook/docusaurus
+- npm run typescript:build: Compile TypeScript code (under src/ folder) into JavaScript code (under lib/ folder).,https://github.com/versatica/mediasoup
+"Do not edit the auto-generated files within versioned_docs/ or versioned_sidebars/ unless you are sure it is necessary. For example, information about new features should not be documented in versioned docs. Edits made to older versions will not be propagated to newer versions of the docs.",https://github.com/facebook/docusaurus
+Developing on Windows,https://github.com/nrwl/nx
+"- If you add some assets for the examples (models, textures, sounds, etc), make sure they have a proper license allowing for their use here, less restrictive the better. It is unlikely for large assets to be accepted.",https://github.com/mrdoob/three.js
+"- Device (CPU model including architecture, e.g. x86, x86_64, ARM, etc.)",https://github.com/godotengine/godot
+- Make commits of logical units,https://github.com/Red5/red5-server
+yarn build && yarn test,https://github.com/vercel/vercel
+2.  Add the copyright notice to the top of any code new files you've added.,https://github.com/facebook/docusaurus
+This is too much to read! I want to ask a question!,https://github.com/Rapptz/discord.py
+"Once you are confident that your changes work properly, open a pull request on the main repository.",https://github.com/vercel/vercel
+By contributing code to xterm.js you:,https://github.com/xtermjs/xterm.js
+- https://projects.eclipse.org/projects/iot.mosquitto,https://github.com/eclipse/mosquitto
+Our bug tracker utilizes several labels to help organize and identify issues. Here's what they represent and how we use them:,https://github.com/Dogfalo/materialize
+"jupyter nbextension install voila --sys-prefix --py
+jupyter nbextension enable voila --sys-prefix --py",https://github.com/voila-dashboards/voila
+3.  Get your own API key,https://github.com/DestinyItemManager/DIM
+"Avoid unnecessary Higher Order Components (HOCs), unless they add a significant amount of value or abstract way something that would otherwise complicate many components (like uncontrollable). It's not that HOCs are bad, but we want to try and keep these low level UI blocks as flat and straightforward as possible. Prefer to work explicitly in the component and avoid over optimization up front.",https://github.com/react-bootstrap/react-bootstrap
+git remote add upstream https://github.com/srdja/Collections-C.git,https://github.com/srdja/Collections-C
+It's usually a good idea to run ideas by the IWYU mailing list to get general agreement on directions before you start hacking.,https://github.com/include-what-you-use/include-what-you-use
+"- Use a topic/feature branch to easily amend a pull request later, if necessary.",https://github.com/rubocop-hq/rubocop
+Contributing,https://github.com/vinta/awesome-python
+- Changed default value of `execution_bugs` from 30 to 0 [#104](http://example.org),https://github.com/elastic/logstash
+Unit Testing,https://github.com/springfox/springfox
+git pull [--rebase] upstream master,https://github.com/Dogfalo/materialize
+"- Marketing: writing blog posts, howto's, printing stickers, ...",https://github.com/onivim/oni
+"The Open Source Guides website has a collection of resources for individuals, communities, and companies who want to learn how to run and contribute to an open source project. Contributors and people new to open source alike will find the following guides especially useful:",https://github.com/facebook/docusaurus
+"5.  Install the dependencies of each package and build each package.
+lerna bootstrap",https://github.com/FoalTS/foal
+The code of conduct is described in CODE_OF_CONDUCT.md,https://github.com/facebook/redex
+"We will try to give initial feedback to pull requests within a few days. However, this may not always be possible. Please be patient, we will look at every pull request as soon as we can.",https://github.com/snozbot/fungus
+- Run yarn local-registry enable in Terminal 2,https://github.com/nrwl/nx
+Pull Requests,https://github.com/doczjs/docz
+- Please do not open issues or pull requests regarding the code in React or Bootstrap (open them in their respective repositories).,https://github.com/react-bootstrap/react-bootstrap
+- Contributions will not be accepted without tests.,https://github.com/jnunemaker/httparty
+"To start developing Mail-in-a-Box, clone the repository and familiarize yourself with the code.",https://github.com/mail-in-a-box/mailinabox
+"- Code: take a look at the open issues. Even if you can't write code, commenting on them, showing that you care about a given issue matters. It helps us triage them.",https://github.com/onivim/oni
+"$ echo ""192.168.50.4 mailinabox.lan"" | sudo tee -a /etc/hosts",https://github.com/mail-in-a-box/mailinabox
+- Did I explain my change clearly?,https://github.com/php/php-src
+Our Responsibilities,https://github.com/kubeapps/kubeapps
+- Bugs that are not 'Confirmed' should be confirmed first.,https://github.com/OpenMW/openmw
+- **Why make this breaking change**:,https://github.com/sveltejs/svelte
+License,https://github.com/Dogfalo/materialize
+- What happens to you may not happen to other users.,https://github.com/godotengine/godot
+":+1::tada: First off, thanks for taking the time to contribute! :tada::+1:",https://github.com/Karumi/Dexter
+Reporting a Bug,https://github.com/Jackett/Jackett
+- iwyu_cache.cc: holds the cache of instantiated templates (may hold other cached info later).  This is data that is expensive to compute and may be used more than once.,https://github.com/include-what-you-use/include-what-you-use
+"2.  Begin your entry with an introductory label if appropriate. Labels include:
+[DOC], [BREAKING], [SECURITY].
+NOTE: Your PR may not need a label.",https://github.com/elastic/logstash
+"When you change the NEWS file for a bug fix, then please keep the bugs sorted in
+decreasing order under the fixed version.",https://github.com/php/php-src
+- Split up large patches into smaller units of functionality.,https://github.com/openstreetmap/openstreetmap-website
+- iwyu_verrs.cc: debug logging for IWYU.,https://github.com/include-what-you-use/include-what-you-use
+Contributor Guidelines,https://github.com/dodyg/practical-aspnetcore
+- core - anything Nx core specific,https://github.com/nrwl/nx
+"5.  (If you've changed APIs, update the documentation.)",https://github.com/TorchCraft/TorchCraft
+"We have very precise rules over how our git commit messages can be formatted. This leads to more
+readable messages that are easy to follow when looking through the project history.",https://github.com/scullyio/scully
+When you finished your work and going to commit the final change. You can specify Fixes and the GitHub id of the original issue to help the Piwigo team. This will close automatically the pull request when this will be merged on the upstream.,https://github.com/Piwigo/Piwigo
+Breaking Changes,https://github.com/vendure-ecommerce/vendure
+- Use this Codepen to illustrate your problem.,https://github.com/Dogfalo/materialize
+"Just a gentle reminder: Try not to submit your own project. Instead, wait for someone finds it useful and submits it for you.",https://github.com/vinta/awesome-python
+"4.  Keep pushing commits to the initial branch, --amend-ing if necessary. Please don't mix fixing unrelated issues in a single branch.",https://github.com/elastic/cookbook-elasticsearch
+- Updating your fork,https://github.com/jaredpalmer/razzle
+"Integration tests create deployments to your Vercel account using the test project name. After each test is deployed, the probes key is used to check if the response is the expected value. If the value doesn't match, you'll see a message explaining the difference. If the deployment failed to build, you'll see a more generic message like the following:",https://github.com/vercel/vercel
+- Run npx create-nx-workspace@999.9.9 in Terminal 2,https://github.com/nrwl/nx
+"- If the backfills provided by different major versions of frameworks/CMSes/polyfill libraries are signficantly different, separate rulesets for the relevant major versions of frameworks/CMSes/polyfill libraries will be accepted.",https://github.com/PHPCompatibility/PHPCompatibility
+Contributions,https://github.com/jshjohnson/Choices
+"- FunctionNameRestrictions can be regarded as a sub-category of FunctionDeclaration in so far as that sniffs which check for invalid function names in certain contexts, should be placed here.",https://github.com/PHPCompatibility/PHPCompatibility
+"- To check PHP parsing errors (this takes several minutes):
+docker exec -i $(docker ps | grep _openemr | cut -f 1 -d "" "") sh -c '/root/devtools php-parserror'",https://github.com/openemr/openemr
+Committers,https://github.com/dropwizard/dropwizard
+"In VS Code, run the launch as server launch config - it will start the adapter as a server listening on port 4712. In your test app launch.json, include this flag at the top level: ""debugServer"": ""4712"". Then you'll be able to debug the adapter in the first instance of VS Code, in its original TypeScript, using sourcemaps.",https://github.com/microsoft/vscode-chrome-debug
+Example:,https://github.com/php/php-src
+The process for contributing to any of the Elasticsearch repositories is similar:,https://github.com/elastic/elasticsearch-rails
+$ cd setup-php,https://github.com/shivammathur/setup-php
+"- An extension or plugin should add substantial functionality, be
+well-documented and open-source. It should be available for users to download
+and install as a Python package PyPi.",https://github.com/explosion/spaCy
+Pull Requests,https://github.com/microsoft/reactxp
+"- Bugs where the intent is very obvious, and that have little to no balancing impact (e.g. the bug were being tired made it easier to repair items, instead of harder)",https://github.com/OpenMW/openmw
+6.  Select all scopes except the Administrate Groups/Clans,https://github.com/DestinyItemManager/DIM
+Requesting features,https://github.com/PHPCompatibility/PHPCompatibility
+- Ask for test plans and review code.,https://github.com/sveltejs/svelte
+"If you wish to submit a PR, please first submit an issue for discussion (or add a comment on an existing issue).",https://github.com/FoalTS/foal
+- The entry line should start with *  (an asterisk and a space).,https://github.com/rubocop-hq/rubocop
+- Browse JavaDoc at http://pwittchen.github.io/ReactiveNetwork/,https://github.com/pwittchen/ReactiveNetwork
+"- The version of the rack-contrib gem (or git hash of the repo) that you
+are running;",https://github.com/rack/rack-contrib
+"If you forget something, don't worry: you can continue to push commits on your branch and it will automatically update your pull request.",https://github.com/Piwigo/Piwigo
+- Not all new features will need a new example. Simpler features could be incorporated into an existing example. Bigger features may be asked to add an example demonstrating the feature.,https://github.com/mrdoob/three.js
+This will prevent PHPCS trying to include the PHPCompatibility unit tests when creating the test suite.,https://github.com/PHPCompatibility/PHPCompatibility
+- Comments must start with upercase letter.,https://github.com/versatica/mediasoup
+team web3j,https://github.com/web3j/web3j
+- Don't include any build files to your commit.,https://github.com/mrdoob/three.js
+Editing templates,https://github.com/voila-dashboards/voila
+"This project is seeking parity with the core Bootstrap library.
+Component by component to the extent it is possible.",https://github.com/react-bootstrap/react-bootstrap
+Static Analysis,https://github.com/openstreetmap/openstreetmap-website
+"The bug tracker at Github is for reporting bugs in Jasper. If you encounter problems during installation or compilation of one of Jasper's dependencies for example, do not create a new issue here. Please open a new thread in the support forum instead. Also, make sure that it's not a usage issue.",https://github.com/jasperproject/jasper-client
+"In order to run the tests on the sniffs, the following installation steps are required.",https://github.com/PHPCompatibility/PHPCompatibility
+- node - anything Node specific,https://github.com/nrwl/nx
+":mega: Support/Questions?: Please see our Support
+Page for general support questions. The
+issues on GitHub should be reserved for bug reports and feature requests.",https://github.com/ionic-team/ionic-cli
+"If you're only fixing a bug, it's fine to submit a pull request right away but we still recommend that you file an issue detailing what you're fixing. This is helpful in case we don't accept that specific fix but want to keep track of the issue.",https://github.com/sveltejs/svelte
+CI Build,https://github.com/spockframework/spock
+- Code of Conduct,https://github.com/scullyio/scully
+"Otherwise you should either push your changes to a publicly visible git repository
+and send the details to the rails-dev
+list or generate patches with git format-patch and send them to the
+rails-dev list.",https://github.com/openstreetmap/openstreetmap-website
+"- Create an issue on GitHub, if you have found a bug",https://github.com/nette/php-generator
+"However, there are still some styles that Prettier cannot pick up.",https://github.com/facebook/docusaurus
+Contributing,https://github.com/mail-in-a-box/mailinabox
+"# Define the function
+geometry_<function_name>() {",https://github.com/geometry-zsh/geometry
+"- If it is a general Logstash or a pipeline issue, file it in Logstash GitHub",https://github.com/elastic/logstash
+Check out this video for a live walkthrough or follow the instructions below:,https://github.com/nrwl/nx
+Index pages have links to various sub-topics inside a topic. These pages are named _index.html.,https://github.com/yugabyte/yugabyte-db
+4.  Is it something really obvious that you can fix yourself?,https://github.com/tastyigniter/TastyIgniter
+- Prefer readonly and const variables when appropriate,https://github.com/Jackett/Jackett
+Table of contents,https://github.com/godotengine/godot
+Use examples/basic as template,https://github.com/jaredpalmer/razzle
+"- Please do search for duplicate or closed issues and make sure to go through our labels, before you open a new issue. Duplicate issues will be closed.",https://github.com/Dogfalo/materialize
+"The pull request process differs for new features and bugs. Before sending a pull request for a new feature, you should first create an issue with [Proposal] in the title. The proposal should describe the new feature, as well as implementation ideas. The proposal will then be reviewed and either approved or denied. Once a proposal is approved, a pull request may be created implementing the new feature. Pull requests which do not follow this guideline will be closed immediately.",https://github.com/Indatus/dispatcher
+* [#7542](https://github.com/rubocop-hq/rubocop/pull/7542): **(Breaking)** Move `LineLength` cop from `Metrics` department to `Layout` department. ([@koic][]),https://github.com/rubocop-hq/rubocop
+Dispatcher Contribution Guide,https://github.com/Indatus/dispatcher
+- Please do not use the issue tracker for personal support requests. Stack Overflow materialize tag is the best place to get help or use our Gitter channel.,https://github.com/Dogfalo/materialize
+git clone https://github.com/{YourFork}/Rg.Plugins.Popup.git,https://github.com/rotorgames/Rg.Plugins.Popup
+Please try your best not to ask questions in our issue tracker. Most of them don't belong there unless they provide value to a larger audience.,https://github.com/Rapptz/discord.py
+- Delete the remote branch on GitHub either through the GitHub web UI or your local shell as follows:,https://github.com/scullyio/scully
+- feat (new feature),https://github.com/vendure-ecommerce/vendure
+"Any copyright notices in this repo should specify the authors as ""the contributors"".",https://github.com/kubeapps/kubeapps
+- Checkin Procedure:  Once a feature is complete and tested according to the contribution guidelines follow these steps:,https://github.com/microsoft/onnxruntime
+"3.  Close (and reference) issues by the closes #XXX or fixes #XXX notation in the commit message. Please use a descriptive, useful commit message that could be used to understand why a particular change was made.",https://github.com/elastic/cookbook-elasticsearch
+The Spock Framework Team,https://github.com/spockframework/spock
+Code of Conduct,https://github.com/facebook/Surround360
+Claiming a bounty,https://github.com/onivim/oni
+"3.  If you've changed APIs, update the documentation.",https://github.com/WhatsApp/stickers
+Create a release before you push your changes.,https://github.com/shivammathur/setup-php
+This project comes with .prettierrc.json and eslintrc.json configuration files. Please run the following commands to format the code before committing it.,https://github.com/shivammathur/setup-php
+Writing Code,https://github.com/google/leveldb
+"You won't need to add a changeset if you're simply making ""non-visible"" changes to the docs or other
+files that aren't published to npm.",https://github.com/FormidableLabs/urql
+- Use the present tense.,https://github.com/minetest/minetest
+"Again, please create a feature request detailing the functionality you intend to add, and state that you would like to implement it. When creating commits, please follow the commit message format below.",https://github.com/vendure-ecommerce/vendure
+"When opening a new issue, always make sure to fill out the issue template. This step is very important! Not doing so may result in your issue not being managed in a timely fashion. Don't take this personally if this happens, and feel free to open a new issue once you've gathered all the information required by the template.",https://github.com/sveltejs/svelte
+- for mobile: run npm run web -- -host YOUR_LOCAL_IP then on your mobile enter http://YOUR_LOCAL_IP:8080,https://github.com/microsoft/reactxp
+Python conventions,https://github.com/explosion/spaCy
+This project has a Code of Conduct. Please review it when joining our community.,https://github.com/mail-in-a-box/mailinabox
+docz-core,https://github.com/doczjs/docz
+"- Tag issues with the appropriate labels for devices, platforms etc.",https://github.com/minetest/minetest
+1.  Be a summary of the Pull Request and contain a markdown link to the PR.,https://github.com/elastic/logstash
+2.  cd openemr (the directory you cloned the code into),https://github.com/openemr/openemr
+"Although not a formal channel, you can also find a number of core developers on
+the #php.pecl channel on EFnet. Similarly, many
+documentation writers can be found on #php.doc. Windows development IRC channel
+is available at #winphp-dev on FreeNode.",https://github.com/php/php-src
+"master is where our code lives and development takes place. We will do our best to keep master in good shape, with tests passing at all times. We will also do our best not to publish updated npm packages that will break sites. But in order to move fast, we may make changes that could break existing sites. We will do our best to communicate these changes and version appropriately so you can lock into a specific Docusaurus version if need be.",https://github.com/facebook/docusaurus
+Reporting security issues,https://github.com/tastyigniter/TastyIgniter
+"- Set character set to utf8 and collation to utf8_general_ci (this is default for OpenEMR 5 and lower):
+docker exec -i $(docker ps | grep _openemr | cut -f 1 -d "" "") sh -c '/root/devtools change-encoding-collation utf8 utf8_general_ci'",https://github.com/openemr/openemr
+"4.  On long running PRs, request the author to update its description with the current state or a checklist of things left to do.",https://github.com/OpenMW/openmw
+"Contributions to this project must be accompanied by a Contributor License
+Agreement. You (or your employer) retain the copyright to your contribution;
+this simply gives us permission to use and redistribute your contributions as
+part of the project. Head over to https://cla.developers.google.com/ to see
+your current agreements on file or to sign a new one.",https://github.com/GoogleCloudPlatform/microservices-demo
+2.  Add an example to the ./examples directory: The name of the directory should equal the slug of the framework used in @vercel/frameworks. The .github/EXAMPLE_README_TEMPLATE.md file can be used to create a README.md file for the example.,https://github.com/vercel/vercel
+"We recommend always attaching a minimal reproduction project, even if the issue
+may seem simple to reproduce manually.",https://github.com/godotengine/godot
+"If you think you have found a security hole, please do NOT submit an issue but send an email directly to loic.poullain@centraliens.net.",https://github.com/FoalTS/foal
+"- To reset and reinstall OpenEMR:
+docker exec -i $(docker ps | grep _openemr | cut -f 1 -d "" "") sh -c '/root/devtools dev-reset-install'",https://github.com/openemr/openemr
+Running the examples,https://github.com/voila-dashboards/voila
+1.  Fork the repo & clone it locally.,https://github.com/ionic-team/ionic-cli
+Dealing with regressions,https://github.com/OpenMW/openmw
+"5.  Checkout the ""develop"" branch At this point you are ready to start making changes.",https://github.com/tastyigniter/TastyIgniter
+Supporters,https://github.com/Red5/red5-server
+"TastyIgniter uses the Git-Flow branching model which requires all pull requests to be sent to the ""develop"" branch. This is where the next planned version will be developed. The ""master"" branch will always contain the latest stable version and is kept clean so a ""hotfix"" (e.g: an emergency security patch) can be applied to master to create a new version, without worrying about other features holding it up. For this reason all commits need to be made to ""develop"" and any sent to ""master"" will be closed automatically.",https://github.com/tastyigniter/TastyIgniter
+"- Unit test files should be named the same as the sniff, replacing the Sniff suffix with UnitTest.",https://github.com/PHPCompatibility/PHPCompatibility
+- Actual behavior: What is the actual result on running above steps i.e. the bug behavior - include any error messages.,https://github.com/tastyigniter/TastyIgniter
+3.  Open an issue and describe the issue you are having - you could include:,https://github.com/minetest/minetest
+"OpenWebRTC is still a relatively young project. Our ambition is to create an even more vibrant
+and open community where our team from Ericsson Research is just one of many contributors.",https://github.com/EricssonResearch/openwebrtc
+- local variables are camelCase,https://github.com/Jackett/Jackett
+"Your contributions to the TastyIgniter project are very welcome. If you would like to fix a bug or propose a new feature, you can submit a Pull Request.",https://github.com/tastyigniter/TastyIgniter
+- packages/@ionic/utils-object: General purpose object library.,https://github.com/ionic-team/ionic-cli
+Before reporting a bug,https://github.com/mrdoob/three.js
+"Unless we have a Joint Copyright Agreement on file or this statement is in your pull request, we cannot accept it.",https://github.com/icsharpcode/SharpDevelop
+First review,https://github.com/OpenMW/openmw
+"We want to fix all the issues as soon as possible, but before fixing a bug we need to reproduce and confirm it. In order to reproduce bugs, we will systematically ask you to provide a minimal reproduction. Having a minimal reproducible scenario gives us a wealth of important information without going back & forth to you with additional questions.",https://github.com/scullyio/scully
+jupyter extension enable voila --sys-prefix,https://github.com/voila-dashboards/voila
+2.  Clone,https://github.com/DestinyItemManager/DIM
+git merge upstream/master,https://github.com/srdja/Collections-C
+The framework follows the semantic versioning specification.,https://github.com/FoalTS/foal
+5.  Make your changes,https://github.com/eclipse/mosquitto
+"We'd love to accept your code patches! However, before we can take them, we
+have to jump a couple of legal hurdles.",https://github.com/google/leveldb
+- perf: A code change that improves performance,https://github.com/scullyio/scully
+https://gitlab.com/OpenMW/openmw/issues,https://github.com/OpenMW/openmw
+Test plan,https://github.com/sveltejs/svelte
+Code Documentation,https://github.com/openstreetmap/openstreetmap-website
+- Using the issue tracker,https://github.com/Dogfalo/materialize
+"- For a Major Feature, first open an issue and outline your proposal so that it can be
+discussed. This will also allow us to better coordinate our efforts, prevent duplication of work,
+and help you to craft the change so that it is successfully accepted into the project.",https://github.com/scullyio/scully
+Documentation,https://github.com/dropwizard/dropwizard
+"- Feature Requests: Got an idea for a feature. Open an issue. That way
+we can all see and comment on it.",https://github.com/mike-ward/Markdown-Edit
+- Contributor - A contributor is a developer that has submitted a successful PR for the project.,https://github.com/onivim/oni
+- Intel architecture software developer manuals,https://github.com/lifting-bits/mcsema
+Setup,https://github.com/ionic-team/ionic-cli
+- Commits regarding the commands extension must be prefixed with [commands],https://github.com/Rapptz/discord.py
+"Ideally, running the following command from within the repo directory should
+not return any errors or warnings:",https://github.com/explosion/spaCy
+When you want to pull down changes to your fork enter the following into your terminal:,https://github.com/jaredpalmer/razzle
+"{{< warning title=""Warning"" >}}
+This is a warning with a [link](https://www.yugabyte.com).
+{{< /warning >}}",https://github.com/yugabyte/yugabyte-db
+? Thanks for your interest in helping improve Streamlit! ?,https://github.com/streamlit/streamlit
+Feature requests,https://github.com/minetest/minetest
+"- Here is how to grab a capsule from the docker, which can then store or share with friends.",https://github.com/openemr/openemr
+Good Bug Reports,https://github.com/Rapptz/discord.py
+- Provide reproduction steps: List all the steps necessary to reproduce the issue. The person reading your bug report should be able to follow these steps to reproduce your issue with minimal effort.,https://github.com/facebook/docusaurus
+Thank you for considering contributing to Dispatcher. Please read the documentation below to determine where and how you should make contributions.,https://github.com/Indatus/dispatcher
+"- Guidance on how to reproduce the issue. Ideally, this should have a small code sample that allows us to run and see the issue for ourselves to debug. Please make sure that the token is not displayed. If you cannot provide a code snippet, then let us know what the steps were, how often it happens, etc.",https://github.com/Rapptz/discord.py
+"So you have decided to contribute code back to upstream by opening a pull request. You've invested a good chunk of time, and we appreciate it. We will do our best to work with you and get the PR looked at.",https://github.com/facebook/docusaurus
+"To save your and our time, we will systematically close all issues that are requests for general support and redirect people to Stack Overflow.",https://github.com/scullyio/scully
+"To get started, execute the following:",https://github.com/vercel/vercel
+Have an Idea or Feature Request?,https://github.com/elastic/logstash
+"2.  Do not use the Github ""merge button"", since it doesn't do a fast-forward merge (see previous item).",https://github.com/elastic/cookbook-elasticsearch
+"- Following from the previous bullet point, do not include unrelated changes in a PR. It can be tempting to include extra styling changes or additional functionality, but these should be added as separate PRs.",https://github.com/onivim/oni
+- Reproduce steps: Clearly mention the steps to reproduce the bug.,https://github.com/tastyigniter/TastyIgniter
+"This script will start a local server similar to three.js, but instead will be hosted on your local
+machine. Browse to http://localhost:8080/ to check it out. It also automatically creates the
+directory.",https://github.com/mrdoob/three.js
+DCO Sign off,https://github.com/kubeapps/kubeapps
+"| Field Name      | Description           |
+| :-------------: | --------------------- |
+| title         | Page title displayed in browser tab |
+| linkTitle     | Text displayed in left navigation |
+| description   | Text displayed as the title of the docs page |",https://github.com/yugabyte/yugabyte-db
+$ vagrant up --provision,https://github.com/mail-in-a-box/mailinabox
+"When the Node environment is created, create a symlink to packages/@ionic/cli/bin/ionic within $NVM_BIN:",https://github.com/ionic-team/ionic-cli
+"First, you'll need git to fork and clone the repo. GitHub has help pages about setting
+up git, and once you've done
+that, you should be able to clone the repo and change into the repo's directory
+from your terminal:",https://github.com/rotorgames/Rg.Plugins.Popup
+"All Python code must be written in an intersection of Python 2 and Python 3.
+This is easy in Cython, but somewhat ugly in Python. Logic that deals with
+Python or platform compatibility should only live in
+spacy.compat. To distinguish them from the builtin
+functions, replacement functions are suffixed with an underscore, for example
+unicode_. If you need to access the user's version or platform information,
+for example to show more specific error messages, you can use the is_config()
+helper function.",https://github.com/explosion/spaCy
+"When filing a pull request, you should be prepared to answer questions about your changes
+and to perform additional work on the changes in response to review feedback.",https://github.com/gitextensions/gitextensions
+- Write good commit messages.,https://github.com/Karumi/Dexter
+- Removed for now removed features.,https://github.com/elastic/logstash
+- Linux-based developers will need to install build-essential (sudo apt-get install -y build-essential) prior to running yarn install.,https://github.com/DestinyItemManager/DIM
+Help and Docs,https://github.com/jnunemaker/httparty
+- ng-lib,https://github.com/scullyio/scully
+"To participate in Docusaurus 2 dev, we have the #docusaurus-2-dev channel.",https://github.com/facebook/docusaurus
+Contributing,https://github.com/vercel/vercel
+"All submissions, including submissions by project members, require review. We
+use Github pull requests for this purpose.",https://github.com/playgameservices/play-games-plugin-for-unity
+What Happens Next?,https://github.com/facebook/docusaurus
+Before you submit your Pull Request (PR) consider the following guidelines:,https://github.com/scullyio/scully
+- Code Examples,https://github.com/Dogfalo/materialize
+"propTypes: {
+/**",https://github.com/react-bootstrap/react-bootstrap
+All example folders should be named with-<thing-you-are-demonstrating>. Each example's npm package name (found in it's package.json) should look like razzle-examples-with-<thing-you-are-demonstrating>.,https://github.com/jaredpalmer/razzle
+"- style: Changes that do not affect the meaning of the code (white-space, formatting, missing semi-colons, etc)",https://github.com/scullyio/scully
+- Error logs (check the bottom of the debug.txt file).,https://github.com/minetest/minetest
+"- Issues so glaring that they would severely limit the capabilities of the engine in the future (for example, the scripting engine not being allowed to access objects in remote cells)",https://github.com/OpenMW/openmw
+- Any feature that is also possible with modding should be done as a mod instead.,https://github.com/OpenMW/openmw
+- Main and top level package.,https://github.com/doczjs/docz
+"By contributing to WhatsApp Stickers, you agree that your contributions will be licensed
+under the LICENSE file in the root directory of this source tree.",https://github.com/WhatsApp/stickers
+How to contribute to xterm.js,https://github.com/xtermjs/xterm.js
+- Debug with node --inspect-brk ./node_modules/jest/bin/jest.js build/packages/angular/src/utils/ast-utils.spec.js,https://github.com/nrwl/nx
+"- Check that the issue has not already been fixed in the latest code
+(a.k.a. master).",https://github.com/rubocop-hq/rubocop
+- razzle: The core library,https://github.com/jaredpalmer/razzle
+"If you would like to contribute but don't know where to start, check out the issues with the easy tag.",https://github.com/robotmedia/RMStore
+Prerequisites:,https://github.com/gulpjs/gulp
+- Be descriptive. See the commit messages by core developers for examples.,https://github.com/minetest/minetest
+"If you have questions about using Svelte, contact us on Discord at svelte.dev/chat, and we will do our best to answer your questions.",https://github.com/sveltejs/svelte
+"The subject must contain a description of the change, and the body of the message contains any additional details to provide more context about the change.",https://github.com/nrwl/nx
+Security Vulnerabilities,https://github.com/FoalTS/foal
+"- devel@godotengine.org mailing
+list: Mailing list
+for Godot developers, used primarily to announce developer meetings on IRC
+and other important discussions that need to reach people directly in their
+mailbox. See the index
+page for
+subscription instructions.",https://github.com/godotengine/godot
+Submitting issues,https://github.com/drewm/mailchimp-api
+conda install -c conda-forge ipywidgets ipyvolume bqplot scipy,https://github.com/voila-dashboards/voila
+"To contribute code or documentation, please submit a pull request to the GitHub repository.",https://github.com/spockframework/spock
+"cd notebooks/
+voila",https://github.com/voila-dashboards/voila
+"- Comment your code - don't go overboard, but explain the bits which
+might be difficult to understand what the code does, why it does it
+and why it should be the way it is.",https://github.com/openstreetmap/openstreetmap-website
+"Pro-tip: If you develop regularly for the PHPCompatibility standard, it may be preferable to use a git clone based install of PHP CodeSniffer to allow you to easily test sniffs with different PHP CodeSniffer versions by switching between tags.",https://github.com/PHPCompatibility/PHPCompatibility
+What Makes a Good Pull Request,https://github.com/spockframework/spock
+Contributing,https://github.com/Dogfalo/materialize
+- Target a specific e2e test (i.e. /build/e2e/cypress.test.js) with yarn e2e cypress,https://github.com/nrwl/nx
+"A tip box gives a hint or other useful but optional piece of information. It looks as follows:
+Tip Box",https://github.com/yugabyte/yugabyte-db
+- **How to migrate**:,https://github.com/sveltejs/svelte
+- Open a Pull Request (PR),https://github.com/mrdoob/three.js
+Your first pull request,https://github.com/sveltejs/svelte
+- You may see an error if bufferutil or utf-8-validate fail to build. These native modules required by ws are optional and the adapter should work fine without them.,https://github.com/microsoft/vscode-chrome-debug
 "- Open a pull request that relates to only one subject with a clear title
-and description in grammatically correct, complete sentences.",No categories identified.
-"In particular, you should prefer named function declarations over const myFunction = () => ... arrows for top-level functions. However, you should use arrow functions where they provide a tangible improvement (such as preserving this context inside a component). Consider both sides of the tradeoff when deciding whether to use a new feature.",No categories identified.
-Pull Request When Ready,No categories identified.
-"Once your code has been reviewed and approved by the requisite number of team members, it will be merged into the master branch. Once merged, your PR will be automatically closed.",No categories identified.
-Determining your branch,No categories identified.
-develop,No categories identified.
-"First of all, thank you for using n3-charts ! And thank you too for contributing, this is an open-source, community driven project that couldn't exist without, well, the community. That means you ! However, as any project that involves more than one person, there are rules to follow in order to make everyone happy. Please read them carefully, and feel free to ask about them (here).",No categories identified.
-- Use either Mockito or hand-written test doubles.,No categories identified.
-... or Cmd:,No categories identified.
-"(plotly_dev) $ pip install -e packages/python/plotly/
-(plotly_dev) $ pip install -e packages/python/chart-studio/
-(plotly_dev) $ pip install -e packages/python/plotly-geo/",No categories identified.
-Git and our Branching model,No categories identified.
-We try to use the following channels accordingly:,No categories identified.
-Pull-requests,No categories identified.
-"The pfSense project welcomes contributions, big or small. Members of the pfSense community frequently contribute bug fixes, enhancements, and documentation changes to improve the functionality and usability of the software.",No categories identified.
-"*Optional:
-You can run faster server builds during development by calling ./node_modules/.bin/gulp dev_server script instead, this will build server binaries that are required by your host OS only. You can also use npm run watch-server which will build and place them on the extension for Java changes. These commands run Maven in offline mode, so you might need to run build-server at least once, to fetch all the dependencies.",No categories identified.
-How To Contribute,No categories identified.
-"- Currently, the only proxy able to decrypt TLS  1.3 is Burp 1.7.x
-(use version 1.7 although it's outdated, 2.x won't work) with Java 11 or above.",No categories identified.
-This is based on information seen here.,No categories identified.
-"- You grant Forge a license to use your code contributed to the primary codebase (everything not under patches) in Forge, under the LGPLv2.1 license.",No categories identified.
-"conda create -n plotly-dev python
-conda activate plotly-dev",No categories identified.
-- install section,No categories identified.
-- origin - Your fork of the official repository on GitHub (what is on your GitHub account),No categories identified.
-Or you can create Node.js run configuration manually:,No categories identified.
-Development,No categories identified.
-- You can test your code locally along with your changes using: yarn storybook or npm run storybook. This will open the storybook in your browser .,No categories identified.
-"Therefore, if you do file issues, or create PRs, please keep an eye on your GitHub notifications. If you do not respond to requests for information, your issues/PRs may be closed automatically.",No categories identified.
-- upstream/master - This is the where main development takes place,No categories identified.
-New features that introduce some breaking changes or incomplete code should be committed in a separate feature-{name} branch.,No categories identified.
-Code Guidelines,No categories identified.
-3.  Run npm i in the local repo,No categories identified.
-"- Update @API.since. Please note since describes the version when the
-status was changed and not the introduction of the element.",No categories identified.
-"# Clone your fork of the repo into the current directory
-git clone https://github.com/<your-username>/server-configs-apache.git
-# Navigate to the newly cloned directory
-cd server-configs-apache
-# Assign the original repo to a remote called ""upstream""
-git remote add upstream https://github.com/h5bp/server-configs-apache",No categories identified.
-"Contributor License Agreement (""CLA"")",No categories identified.
-- Run cd nltk to get to the root directory of the nltk code base;,No categories identified.
-When submitting an issue include the following:,No categories identified.
-$ cd jquery-mobile,No categories identified.
-"- block node: <div>, <p>, <li>, <h1>, <table>",No categories identified.
-Don't use ES6 features when equivalent ES5 features have no downsides.,No categories identified.
-Footer,No categories identified.
-Git Commit Messages,No categories identified.
-"If you would like to run some part of your test codes, use the watch mode.",No categories identified.
-- Frontend (Javascript-related) errors: in your browser's Javascript console. See this guide to using your browser console.,No categories identified.
-- 2 spaces for indentation (no tabs),No categories identified.
-"- Ensure no coding standards violations - Please run PHP Code Sniffer using the PSR-2 standard before submitting your pull request. A violation will cause the build to fail, so please make sure there are no violations. We can't accept a patch if the build fails.",No categories identified.
-Contributing to twa,No categories identified.
-How do I verify and test my changes?,No categories identified.
-"This guide start by a general description of the different ways to contribute
-to plotly.py, then we explain some technical aspects of preparing your
-contribution.",No categories identified.
-C:\> ver,No categories identified.
-"- Before opening a pull request for a bug fix or new feature, make sure there is a ticket for it (don't include a bug report in a pull request)",No categories identified.
-"In order to accept your pull request, we need you to submit a CLA. You only need
-to do this once to work on any of Facebook's open source projects.",No categories identified.
-- Use semicolons;,No categories identified.
-"(b) The contribution is based upon previous work that, to the best of my
-knowledge, is covered under an appropriate open source license and I
-have the right under that license to submit that work with
-modifications, whether created in whole or in part by me, under the same
-open source license (unless I am permitted to submit under a different
-license), as indicated in the file; or",No categories identified.
-Code of Conduct,No categories identified.
-Developer Certificate of Origin Version 1.1,No categories identified.
-This is because the WordPress export produces a pretty messed up export file when it comes to line endings.,No categories identified.
-"- Dev documentation
-Commenting the source code and writing checks is also an ongoing process.",No categories identified.
-"- Use ""fix"", ""add"", ""change"" instead of ""fixed"", ""added"", ""changed"" in your commit messages.",No categories identified.
-"Including this information in a submission will help us test the problem and
-ensure that the bug is both reproduced and corrected on the platforms /
-versions that you are having issues with.",No categories identified.
-"Decisions about which libraries to use should live in template projects such as
-Suspenders.",No categories identified.
-"- Make a note in the CHANGELOG.md file with a brief summary of your change under the heading ""Unreleased"" at the top of the file. If that heading does not exist, you should add it.",No categories identified.
-Contributing to WarriorJS,No categories identified.
-"The team triages new issues several times a week. During triage, the team uses labels to categorize, manage, and drive the project workflow.",No categories identified.
-"git clone https://github.com/nltk/nltk.git
-cd nltk
-pipenv install -r pip-req.txt
-pipenv install tox
-tox -e py37",No categories identified.
-"Financial contributions help make Remmina a lot.
-More info to be found on the Remmina website donation page.
-List of all the great supporters.",No categories identified.
-"Be mindful that if you move some code in an example with highlighting, you also need to update the highlighting.",No categories identified.
-or for a specfic test function,No categories identified.
-"- Have a question that you don't see answered in docs, videos, etc.? File an issue",No categories identified.
-- Social media,No categories identified.
-"- Backwards compatible: Expo CLI should work with every currently supported Expo SDK version. If the code you're adding depends on a feature only present in newer or unreleased SDK versions, it needs to check which SDK version is being used and not assume the latest version is being used.",No categories identified.
-"- Do many small commits on that branch locally (git add files-changed,
-git commit -m ""Add some change"");",No categories identified.
-Repo Bot,No categories identified.
-"* distributed under the License is distributed on an ""AS IS"" BASIS,",No categories identified.
-2.  This is the second step,No categories identified.
-Contributing guide,No categories identified.
-"For changes to the website (electronforge.io), please file
-issues/pull requests at its separate repository.",No categories identified.
-"- Trolling, insulting/derogatory comments, and personal or political attacks",No categories identified.
-$ grunt,No categories identified.
-"- Unless your contributions fall under the trivial exemption policy (below), contributors must sign our Contributor License Agreement (CLA) to be eligible to contribute. Read more in section is below.",No categories identified.
-- fix: A bug fix,No categories identified.
-How to contribute,No categories identified.
-We employ a bot engine to help us automate common processes within our workflow.,No categories identified.
-Here is a quick guide to doing code contributions to the library.,No categories identified.
-"If you wish to publish a canary version, please run:",No categories identified.
-"Report bugs, ideas, issues",No categories identified.
-- Follow the Coding Rules.,No categories identified.
-Branches,No categories identified.
-"The MonoGame project follows standard GitHub flow.  You should learn and be familiar with how to use Git, how to create a fork of MonoGame, and how to submit a Pull Request.",No categories identified.
-Documentation changes,No categories identified.
-If you're still thinking about that killer feature that no one else is thinking about then please create an issue for it using the template.,No categories identified.
-- up-for-grabs: Theses issues have not yet been assigned to anybody. Look for theses when you want to start working on a new issue.,No categories identified.
-1.  This is the first step,No categories identified.
-Support,No categories identified.
-*,No categories identified.
-"- nltk/nltk_data, repository with data
-related to corpora, taggers and other useful data that are not shipped by
-default with the library, which can be downloaded by nltk.downloader;",No categories identified.
-A few things we will not accept,No categories identified.
-The Anatomy of a Guide,No categories identified.
-"Please ask first before embarking on any significant pull request (e.g.
-implementing features, refactoring code), otherwise you risk spending a lot of
-time working on something that the project's developers might not want to merge
-into the project.",No categories identified.
-- DO NOT surprise us with new APIs or big new features. Open an issue to discuss your ideas first.,No categories identified.
-"When submitting your pull request, you need to determine whether to base off
-next or master:",No categories identified.
-C:\> $PSVersionTable.OS,No categories identified.
-Asking for Help,No categories identified.
-1.  Setup Instagram on your phone like this,No categories identified.
-"Currently, the only way of capturing these packets is using another proxy.",No categories identified.
-- Avoid using force push when addressing comments and review items.,No categories identified.
-"- Put a comment block over your methods, describing what they do, their parameters, and their results.",No categories identified.
-"- Unless it's impractical, please write tests for your changes. This will help us so that we can
-spot regressions much easier.",No categories identified.
-2.  Clone this copy to your local disk:,No categories identified.
-Development,No categories identified.
-For smaller contributions just use this workflow:,No categories identified.
-git pull [--rebase] upstream master,No categories identified.
-"There are many video editors for Linux|GNU. OpenShot is good.
-To produce good looking videos choose a 1080p profile.",No categories identified.
-Issues,No categories identified.
-"Additionally, the learn repository can have dev-* for learn specific features and fixes.",No categories identified.
-6.  Platforms/browsers (including version) and devices tested,No categories identified.
-Who is a Collaborator?,No categories identified.
-Value should be a boolean.,No categories identified.
-"The support from the user community has been amazing.  Your passion for creating PySimpleGUI applications is infectious.  Every ""thank you"" is noticed and appreciated!  Your passion for wanting to see PySimpleGUI improve is neither ignored nor unappreciated.",No categories identified.
-"- Please do not use the issue tracker for personal support requests (use
-Stack Overflow or IRC).",No categories identified.
-"NLTK consists of the functionality that the Python/NLP community is motivated to contribute.
-Some priority areas for development are listed in the NLTK Wiki",No categories identified.
-$ yarn test:grep LinkDialog,No categories identified.
-Topic branches should exist in your local and origin repositories only. Submitting a pull request will request a merge from your topic branch to our upstream/master branch.,No categories identified.
-CAUTION Please note that once you have pushed your branch remotely you MUST NOT rebase!,No categories identified.
-1.  Don't use tab or smart tab;,No categories identified.
-"To submit a feature request, create an issue. Include the following:",No categories identified.
-Reporting a bug,No categories identified.
-Donate,No categories identified.
-Background Info,No categories identified.
-Coding Style,No categories identified.
-$pure_begin_prompt_with_current_directory = true,No categories identified.
-"? If you have a question, think you've discovered an issue, would like to propose a new feature, etc., then find/file an issue BEFORE starting work to fix/implement it.",No categories identified.
-- perf: A code change that improves performance,No categories identified.
-- DO give priority to the existing style of the file you're changing.,No categories identified.
-"By contributing your code, you agree to license your contribution under the terms of the APLv2: https://github.com/JessYanCoding/MVPArms/blob/master/LICENSE",No categories identified.
-Apply automatic code style fixes:,No categories identified.
-Setting up a Development Environment,No categories identified.
-6.  Push your topic branch up to your fork:,No categories identified.
-- Run yarn install to make sure you have all Marionette dependencies locally.,No categories identified.
-Grommet Projects,No categories identified.
-What should I know Before I get started?,No categories identified.
-"Now that you've defined the remote upstream branch, you can refresh your local copy of master with the following commands:",No categories identified.
-- version of LCUI used,No categories identified.
-"- Have a question that you don't see answered in docs, videos, etc.? File an issue",No categories identified.
-3.  Reading the Signature Key,No categories identified.
-- Don't know whether you're reporting an issue or requesting a feature? File an issue,No categories identified.
-"- Download the datasets for running tests
-(python -m nltk.downloader all);",No categories identified.
-"Because Windows requires Visual Studio libraries to compile some of the optional dependencies, follow these steps to
-complete installation and avoid gdal-config errors.",No categories identified.
-Occurs as the name suggests after a large amount of requests (in a short amount of time).,No categories identified.
-How can I contribute?,No categories identified.
-"Consider for example a use case needing to support an HTTP URL. Calling the method
-getHTTPURL() is absolutely horrible in terms of usability; whereas, getHttpUrl() is
-great in terms of usability. The same applies for types HTTPURLProvider vs
-HttpUrlProvider, etc.",No categories identified.
-2.  Coding style,No categories identified.
-- Grunt (install with: npm install -g grunt-cli),No categories identified.
-References,No categories identified.
-Coding Rules,No categories identified.
-- install tox for testing,No categories identified.
-You're strongly encouraged to write tests that check your added functionality.,No categories identified.
-Contributing,No categories identified.
-If it is possible to comment your contribution,No categories identified.
-- Buying me a fruit juice.,No categories identified.
-- Rafael Auler (rafaelauler),No categories identified.
-"karma will run test and keep waiting other test requests. And then, run test:grep in another terminal. Below shows how to run LinkDialog related tests only.",No categories identified.
-- should end with a period,No categories identified.
-... or even more granular by running something like:,No categories identified.
-Step by step guide,No categories identified.
-Test page,No categories identified.
-"By contributing to the project, you agree that your contributions will be licensed
-under the LICENSE file in the root directory of this source tree.",No categories identified.
-"# build full version of summernote: dist/summernote.js
-$ yarn build",No categories identified.
-- Documentation,No categories identified.
-1.  Clone the repository.,No categories identified.
-Before opening bug reports/technical issues,No categories identified.
-"2.  If you cloned a while ago, get the latest changes from upstream:",No categories identified.
-????????,No categories identified.
-Need More Help?,No categories identified.
-- Regenerate README: php php-cs-fixer readme > README.rst (Windows php.exe php-cs-fixer readme > README.rst). Do not modify README.rst manually!,No categories identified.
-- Any un-confirmed issue needs a failing test case before being accepted,No categories identified.
-"Just as in the subject, use the imperative, present tense: ""change"" not ""changed"" nor ""changes"".
-The body should include the motivation for the change and contrast this with previous behavior.",No categories identified.
-"- Trailing commas,",No categories identified.
-- The project will follow strict object calisthenics,No categories identified.
-- test: Adding missing tests or correcting existing tests,No categories identified.
-"If you file an Issue for a bug, have located the bug, and found a fix in 10 lines of code or less.... and you wish to share your fix with the community, then feel free to include it with the filed Issue.  If it's longer than 10 lines and wish to discuss it, then send an email to help@PySimpleGUI.org.",No categories identified.
-We accept contributions via Pull Requests on Github.,No categories identified.
-Contributing,No categories identified.
-- Pull requests are welcome,No categories identified.
-"We'll even accept a failing test pasted into the ticket description instead of a
-PR. That would at least get us started on creating the failing test in the code.",No categories identified.
-Please make sure to add new type to README (both menu and description). When providing description make sure to leave a resulting type in a comment like:,No categories identified.
-- All test classes must end with a Tests suffix.,No categories identified.
-"We expect that iperf3 interactions via the issue tracker, mailing
-lists, and so forth will be conducted civilly.  Language that is
-deemed appropriate or abusive may be removed, and we reserve the right
-to ban users from accessing the project for repeated offense.",No categories identified.
-All files are released with the Apache 2.0 license.,No categories identified.
-Additionally for this generator:,No categories identified.
-- Cration of and connection to a VNC server.,No categories identified.
-5.  Ensure all tests pass,No categories identified.
-- Backbone version #.,No categories identified.
-If there isn't already an issue for a feature then go ahead and create a new issue for it using the template. If you'd like to work on the enhancement then just mention it in a comment and check out our workflow.,No categories identified.
-git push origin my-fix-branch,No categories identified.
-"2.  If you cloned a while ago, get the latest changes from upstream:",No categories identified.
-"Tickets are labeled by size, skills required and to indicate workflow. Details can be found in our labelling policy.",No categories identified.
-Changing the Code,No categories identified.
-"To get you started you might want to check out issues concerning documentation, user experience, visual design or perhaps something already awaiting help. You may find the following useful:",No categories identified.
-"- Favor literals (e.g., {@literal @}) over HTML entities.",No categories identified.
-$ git clone git://github.com/Ocramius/PackageVersions.git,No categories identified.
-"PROJECT_FOLDER/
-|
-|--- vscode-java/
-|--- eclipse.jdt.ls/",No categories identified.
-????,No categories identified.
-"By default production code should be silent unless there is a fatal exception. Because of this, logging or debugging is not allowed inside LEAN framework modules. Additional charting inside the module consumes the resources and should not be included in a module as well.",No categories identified.
-"1.  Fork this repo by using the ""Fork"" button in the upper-right",No categories identified.
-"- If we can
-steps required to reproduce the issue.",No categories identified.
-"- use the imperative, present tense: ""change"" not ""changed"" nor ""changes""",No categories identified.
-The first of these problems is our focus for Libraries.io. The other two we are trying to tackle at Tidelift.,No categories identified.
-- Setup a GitHub account,No categories identified.
-"- If you are new to contributing code or content to jQuery projects, read the information at contribute.jquery.org first",No categories identified.
-"5.  Don't forget to run npm test just right before submitting, it also checks for code styling issues.",No categories identified.
-"When you write a new test anywhere under the tests directory, if your PR gets accepted, that test will run in a virtual machine to ensure that future changes don't break your contributions!",No categories identified.
-"The Windows Terminal team is VERY active in this GitHub Repo. In fact, we live in it all day long and carry out all our development in the open!",No categories identified.
-"By contributing to graphql-js, you agree that your contributions will be
-licensed under its MIT license.",No categories identified.
-????,No categories identified.
-"At this point, you should now have a dist/ directory populated with everything you need to use summernote.",No categories identified.
-"Also, while creating your Pull Request on GitHub, you MUST write a description
-which gives the context and/or explains why you are creating it.",No categories identified.
-$ yarn install,No categories identified.
-- Do not use org.junit.Assert or junit.framework.Assert.,No categories identified.
-1.  Fork the main repository.  Click on the 'Fork' button near the top of the page.  This creates a copy of the code under your account on the GitHub server.,No categories identified.
-"- Go to Proxy > External proxy settings..., enable it and forward HTTP and HTTPS to 127.0.0.1:{BURP_PORT}.",No categories identified.
-- Question or Problem?,No categories identified.
-Code Review,No categories identified.
-Our Standards,No categories identified.
-"4.  We try to follow the convention from:
-https://github.com/icy/bash-coding-style.",No categories identified.
-Issues,No categories identified.
-- Push your branch (git push origin my-new-feature).,No categories identified.
-- Showing empathy towards other community members,No categories identified.
-"You'll need to export an environment variable for each tox environment you wish to test with. For example, if you want to test with Python 2.7 and
-Python 3.6, but only care to check the core specs, you would need to ensure that the following variables are exported:",No categories identified.
+and description in grammatically correct, complete sentences.",https://github.com/rubocop-hq/rubocop
+"It also contains 'platform data' that can be used to drive unit testing, for
+example, you might read httpd for some platforms and apache2 for others,
+allowing you to write a single test for the Apache webserver. Unfortunately,
+without further modifications to busser and busser-serverspec, the platform
+data will not be available to serverspec tests.",https://github.com/elastic/cookbook-elasticsearch
+"Thanks for your interest in contributing to spaCy ? The project is maintained
+by @honnibal and @ines,
+and we'll do our best to help you get started. This page will give you a quick
+overview of how things are organised and most importantly, how to get involved.",https://github.com/explosion/spaCy
+- Once done with a patch / feature do not add more commits to a feature branch,https://github.com/mrdoob/three.js
+- Your changes should be made in a new branch based on master not directly on your master branch,https://github.com/Jackett/Jackett
+"# Define defaults for relevant environment variables
+: ${GEOMETRY_<PLUGIN_NAME>_VAR1:=""VALUE1""}
+: ${GEOMETRY_<PLUGIN_NAME>_VAR2:=""VALUE2""}",https://github.com/geometry-zsh/geometry
+Communication,https://github.com/gulpjs/gulp
+## 3.3.1,https://github.com/elastic/logstash
+Add a New Framework,https://github.com/vercel/vercel
+ONNX Runtime has a collection of public APIs.  Some of these APIs make their way back into the Windows OS.  We make compatibility committments for these APIs and follow a structured process when adding to them.  Please use the Feature Request issue template before starting any PRs that affect any of the public APIs.,https://github.com/microsoft/onnxruntime
+- the output of nx report,https://github.com/nrwl/nx
+git clone https://github.com/mbasso/asm-dom.git,https://github.com/mbasso/asm-dom
+Thank you to all our backers! [Become a backer],https://github.com/onivim/oni
+"Be sure to search for existing bugs before you create another one. Remember
+that contributions are always welcome!",https://github.com/eclipse/mosquitto
+Table of Contents,https://github.com/jaredpalmer/razzle
+Translations,https://github.com/Dogfalo/materialize
+Create a pull request,https://github.com/Piwigo/Piwigo
+Interpreting test errors,https://github.com/vercel/vercel
+"This project has adopted the Microsoft Open Source Code of Conduct.
+For more information see the Code of Conduct FAQ
+or contact opencode@microsoft.com with any additional questions or comments.",https://github.com/microsoft/onnxruntime
+Check code Style,https://github.com/DestinyItemManager/DIM
+Coding Style,https://github.com/versatica/mediasoup
+- Bug reports,https://github.com/EricssonResearch/openwebrtc
+Structure of each page,https://github.com/yugabyte/yugabyte-db
+- yarn run test:e2e: Runs end-to-end tests,https://github.com/jaredpalmer/razzle
+"First, fork the repo to your GitHub account. Then clone your fork to your local
+machine and make a new branch for your feature/bug/patch etc. It's a good idea to not develop directly on master so you can get updates.",https://github.com/jaredpalmer/razzle
+- Reference issues or pull requests outside of the first line.,https://github.com/Rapptz/discord.py
+Naming,https://github.com/microsoft/vscode-chrome-debug
+"Some packages, however, can override this policy and be installed if they meet one of the following criteria:",https://github.com/FoalTS/foal
+"- it's good to also add an example and screenshot for it, for showing how it's used and for end-to-end testing.",https://github.com/mrdoob/three.js
+IntelliJ IDEA 14+ is the preferred IDE for developing Spock. To generate an IDEA project configuration:,https://github.com/spockframework/spock
+"- To run validators testing:
+docker exec -i $(docker ps | grep _openemr | cut -f 1 -d "" "") sh -c '/root/devtools validators-test'",https://github.com/openemr/openemr
+- for Lua: 4 spaces for indentation rather than tabs,https://github.com/TorchCraft/TorchCraft
+The next few rules are more of a technical nature:,https://github.com/php/php-src
+- yarn run clean: Clean up all node_modules and remove all symlinks from packages and examples.,https://github.com/jaredpalmer/razzle
+"The following exists as a way to set expectations for yourself and for the review process. We want to merge fixes and features, so let's describe how we can achieve this:",https://github.com/elastic/logstash
+"- If there is ambiguity in terms of design, architecture, or implementation, it's best to get feedback before implementing, to save both you and the maintainer time. If you're not sure, feel free to ask!",https://github.com/onivim/oni
+"If you're reporting a new bug, you'll make our life simpler (and the
+fix will come sooner) by following these guidelines:",https://github.com/godotengine/godot
+- PHP internals,https://github.com/php/php-src
+"Eclipse 3.7+ with latest Groovy plugin should work reasonably well for developing Spock. To import the Gradle build into Eclipse, either run gradlew eclipse and import the generated Eclipse projects via File->Import->General->Existing Project into Workspace, or install the Eclipse Gradle Tooling and import via File->Import->Gradle->Gradle Project. Either method should result in an IDE setup where:",https://github.com/spockframework/spock
+"<url> - a link to the serial output on pastebin
+<pic> - a photo of your build with apparent wiring",https://github.com/SpacehuhnTech/esp8266_deauther
+"We would love for you to contribute to Scully and help make it even better than it is
+today! As a contributor, here are the guidelines we would like you to follow:",https://github.com/scullyio/scully
+- Add tests for it. This is important so I don't break it in a future version unintentionally.,https://github.com/jnunemaker/httparty
+- Small Features can be crafted and directly submitted as a Pull Request.,https://github.com/scullyio/scully
+"Please fill out either the individual or corporate Contributor License
+Agreement as appropriate.",https://github.com/google/leveldb
+"The yarn start step will create a hot-loading webserver, and a TLS cert/key pair. You will access your local development site by visiting https://localhost:8080.
+You will likely get a security warning about the certificate not being trusted. This is because it's a self-signed cert generated dynamically for your environment,
+and is not signed by a recognized authority. Dismass/advance past these warning to view your local DIM application.",https://github.com/DestinyItemManager/DIM
+"? For more details and instructions, see the documentation on compiling spaCy from source and the quickstart widget to get the right commands for your platform and Python version.",https://github.com/explosion/spaCy
+- snake_case for internal variable names and methods.,https://github.com/sveltejs/svelte
+Project Structure,https://github.com/nrwl/nx
+Missing a Feature?,https://github.com/scullyio/scully
+Starting Out,https://github.com/Dogfalo/materialize
+"Your name will likely be included in the Git commit log. If your change affects
+end users, a brief description and your name might be added to the NEWS
+file.",https://github.com/php/php-src
+- Prefer conditional access ?. and null coalescing ?? over null checks,https://github.com/Jackett/Jackett
+"- Exploits may be part of the fun of an open-world game - they reward knowledge with power. There are too many of them to plug them all, anyway.",https://github.com/OpenMW/openmw
+- Open issues marked help wanted,https://github.com/gitextensions/gitextensions
+"# TypeScript checks:
+yarn run check",https://github.com/FormidableLabs/urql
+Git commit rules,https://github.com/php/php-src
+yarn build,https://github.com/nrwl/nx
+1.  Fork the repo and create your branch from master.,https://github.com/WhatsApp/stickers
+"Mail-in-a-Box needs more tests. If you're still looking for a way to help out, writing and contributing tests would be a great start!",https://github.com/mail-in-a-box/mailinabox
+1.  Fork the repo and create your branch from master.,https://github.com/robotmedia/RMStore
+"Update any open bugs and add a link to the source of your change. Send the patch
+or pointer to the bug to pecl-dev@lists.php.net. Also CC the extension
+maintainer. Explain what has been changed by your patch. Test scripts should be
+included.",https://github.com/php/php-src
+- Follow the C/C++ and Lua code style guidelines.,https://github.com/minetest/minetest
+"3.  Fork the desired repo, develop and test your code changes.",https://github.com/kubernetes-sigs/kubespray
+Communication,https://github.com/spockframework/spock
+- Update your commit message to follow the guidelines below (use yarn commit to automate compliance),https://github.com/nrwl/nx
+- Progress over perfection and personal preferences,https://github.com/elastic/logstash
+"- Turn on support for multisite:
+docker exec -i $(docker ps | grep _openemr | cut -f 1 -d "" "") sh -c '/root/devtools enable-multisite'",https://github.com/openemr/openemr
+"Due to how Python is being versioned, please see the python functions available in sources/function/python.",https://github.com/liaralabs/swizzin
+php vendor/bin/phpunit --coverage-text,https://github.com/mike42/escpos-php
+3.  Fork the scullyio/scully repo.,https://github.com/scullyio/scully
+"If you have any questions, create an issue (protip: do a quick search first to see if someone else didn't ask the same question before!).
+You can also reach us at hello@wechat.opencollective.com.",https://github.com/overtrue/wechat
+- General GitHub documentation,https://github.com/Red5/red5-server
+Pull requests,https://github.com/SpacehuhnTech/esp8266_deauther
+- and most importantly - a use-case that fails,https://github.com/nrwl/nx
+"When making a visual change, please provide screenshots
+and/or screencasts of the proposed change. This will help us to understand the
+desired change easier.",https://github.com/react-bootstrap/react-bootstrap
+Prevent French fries carbonization by fixing heat regulation,https://github.com/godotengine/godot
+"1.  All non-security bugfix changes should first go to the lowest bugfix branch
+(i.e. 7.3) and then get merged up to all other branches. All security fixes
+should go to the lowest security fixes branch (i.e 7.2). If a change is not
+needed for later branches (i.e. fixes for features which were dropped from
+later branches) an empty merge should be done.",https://github.com/php/php-src
+How to Contribute,https://github.com/GoogleCloudPlatform/microservices-demo
+"- Look through the open issues. Provide workarounds, ask for clarification, or suggest labels. Help triage issues.",https://github.com/facebook/docusaurus
+- Setting up an ARM64 test environment,https://github.com/lifting-bits/mcsema
+- Clearly describe the issue including steps to reproduce when it is a bug,https://github.com/Red5/red5-server
+Running E2E Tests,https://github.com/nrwl/nx
+## Unreleased,https://github.com/elastic/logstash
+Full working example,https://github.com/geometry-zsh/geometry
+"- ./gradlew cleanIdea idea, followed by",https://github.com/spockframework/spock
+- Filing bugs,https://github.com/php/php-src
+Developing in the vscode-chrome-debug-core module,https://github.com/microsoft/vscode-chrome-debug
+Your First Contribution,https://github.com/onivim/oni
+All code must meet the PSR Coding standards. This makes certain that all code follow the same format as the existing code and means it will be as readable as possible.,https://github.com/tastyigniter/TastyIgniter
+Contributing,https://github.com/systemd/systemd
+- Issues and Bugs,https://github.com/scullyio/scully
+Rubocop and foodcritic tests can be executed using rake style.,https://github.com/elastic/cookbook-elasticsearch
+"3.  Isolate the demonstrable problem -- make sure that the
+code in the project's repository is definitely responsible for the issue.",https://github.com/saltstack/salt
+- Pull requests,https://github.com/php/php-src
+"Note: For large changes or added features, please open an Issue indicating what you are intended to work on. This is to allow greater collaboration and prevent multiple isolated indivduals accidentially working on the same thing.",https://github.com/snozbot/fungus
+"5.  If you haven't already, complete the Contributor License Agreement (""CLA"").",https://github.com/microsoft/reactxp
+"Post an issue describing your feature to open a dialogue with us. We're happy
+to hear from you!",https://github.com/ionic-team/ionic-cli
+Introduction,https://github.com/onivim/oni
+"- Technical impact - involvement in a core technical piece of the editor, or a broad impact on the ecosystem.",https://github.com/onivim/oni
+Feature additions policy,https://github.com/OpenMW/openmw
+"| Code status | Stage | Example version |
+| --- | --- | --- |
+| Backward compatible bug fixes	| Patch release | 1.0.1 |
+| Backward compatible new features	| Minor release | 1.1.0 |
+| Changes that break backward compatibility	| Major release | 2.0.0 |",https://github.com/FoalTS/foal
+- https://github.com/gulpjs/undertaker,https://github.com/gulpjs/gulp
+"- Remove the testing sql ssl CA cert:
+docker exec -i $(docker ps | grep _openemr | cut -f 1 -d "" "") sh -c '/root/devtools sql-ssl-off'",https://github.com/openemr/openemr
+Example,https://github.com/facebook/docusaurus
+"- ""Attractive""",https://github.com/facebook/docusaurus
+New features,https://github.com/vendure-ecommerce/vendure
+Help us keep Scully open and inclusive. Please read and follow our Code of Conduct.,https://github.com/scullyio/scully
+"- Search previous Pull Requests or Issues before making a new one, as yours may be a duplicate.",https://github.com/vinta/awesome-python
+Integration tests,https://github.com/vercel/vercel
+to do this once to work on any of Facebook's open source projects.,https://github.com/TorchCraft/TorchCraft
+Search for bugs:,https://github.com/eclipse/mosquitto
+One great way you can contribute to the project without writing any code is to help triage issues and pull requests as they come in.,https://github.com/sveltejs/svelte
+"Before your code can be accepted into the project you must also sign the
+Individual Contributor License Agreement (CLA).",https://github.com/square/android-times-square
+* [#716](https://github.com/rubocop-hq/rubocop/issues/716): Fixed a regression in the auto-correction logic of `MethodDefParentheses`. ([@bbatsov][]),https://github.com/rubocop-hq/rubocop
+"? For more information on how to add tests, check out the tests README.",https://github.com/explosion/spaCy
+6.  Explain why your change is necessary. What does it accomplish? Is this something that others will want as well?,https://github.com/jasperproject/jasper-client
+Project description:,https://github.com/eclipse/mosquitto
+Thank you to all the people who have already contributed to oni!,https://github.com/onivim/oni
+"1.  Create Issue
+To propose a new feature or API please start by filing a new issue in the issue tracker.
+Include as much detail as you have. It's fine if it's not a complete design: just a summary and rationale is a good starting point.",https://github.com/microsoft/onnxruntime
+1.  Describe the problem clearly in the Pull Request description,https://github.com/tastyigniter/TastyIgniter
+docz follows the Monorepo design managed by Lerna.,https://github.com/doczjs/docz
+1.  Fork the repo and create your branch from master.,https://github.com/facebook/Surround360
+"Valid bugs will be categorized for the next release and worked on as quickly
+as resources can be reasonably allocated.",https://github.com/saltstack/salt
+Contribution,https://github.com/mrdoob/three.js
+- create-razzle-app: Razzle's CLI tool responsible for initialization of new projects,https://github.com/jaredpalmer/razzle
+- Changed default value of `number_of_threads` from 2 to 1 [#101](http://example.org),https://github.com/elastic/logstash
+"After you're done working on your changes, commit your work and push it to your fork.",https://github.com/srdja/Collections-C
+"This project welcomes contributions and suggestions. Most contributions require you to
+agree to a Contributor License Agreement (CLA) declaring that you have the right to,
+and actually do, grant us the rights to use your contribution. For details, visit
+https://cla.microsoft.com.",https://github.com/microsoft/onnxruntime
+"- Confirm that you have the right to contribute and license the code
+in question. (Either you hold all rights on the code, or the rights
+holder has explicitly granted the right to use it like this,
+through a compatible open source license or through a direct
+agreement with you.)",https://github.com/xtermjs/xterm.js
+$ git clone https://github.com/mail-in-a-box/mailinabox,https://github.com/mail-in-a-box/mailinabox
+General philosophy,https://github.com/elastic/cookbook-elasticsearch
+"As contributors and maintainers of this project, we pledge to respect all people who contribute through reporting issues, posting feature requests, updating documentation, submitting pull requests or patches, and other activities.",https://github.com/Karumi/Dexter
+- Send me a pull request. Bonus points for topic branches.,https://github.com/jnunemaker/httparty
+See below for a common template that can be followed while creating a new function.,https://github.com/geometry-zsh/geometry
+8.  Push your develop branch to your fork,https://github.com/tastyigniter/TastyIgniter
+- test: Adding missing tests or correcting existing tests,https://github.com/scullyio/scully
+"""Rebase and merge"" the pull request.",https://github.com/snabbdom/snabbdom
+"spaCy uses the pytest framework for testing. For more
+info on this, see the pytest documentation.
+Tests for spaCy modules and classes live in their own directories of the same
+name. For example, tests for the Tokenizer can be found in
+/spacy/tests/tokenizer. To be interpreted and run,
+all test files and test functions need to be prefixed with test_.",https://github.com/explosion/spaCy
+"- Rebuild PHP with --enable-debug which will show some kinds of memory errors
+and check the PHP and web server error logs after running your PHP tests.",https://github.com/php/php-src
+CLIs,https://github.com/ionic-team/ionic-cli
+Code review process,https://github.com/overtrue/wechat
+"Before reporting a bug, you should check what sniff an error is coming from.
+Running phpcs with the -s flag will show the name of the sniff with each error.",https://github.com/PHPCompatibility/PHPCompatibility
+2.  Make changes:,https://github.com/mrmlnc/fast-glob
+"- Break up your commits into chunks of work. Group logical changes together into one commit. This gives a history and
+context as to what the thought processes is or how you arrived at the final solution",https://github.com/springfox/springfox
+Contributing to Scully,https://github.com/scullyio/scully
+Your contributions are always welcome!,https://github.com/vinta/awesome-python
+- Added for new features.,https://github.com/elastic/logstash
+- Getting Started,https://github.com/Jackett/Jackett
+The type must be one of the following:,https://github.com/nrwl/nx
+"2.  Create an issue or open a PR. If you aren't sure your PR will solve the issue, or may be controversial, we commend opening an issue separately and linking to it in your PR, so that if the PR is not accepted, the issue will remain and be tracked.",https://github.com/elastic/cookbook-elasticsearch
+"For Android, we follow Google Java Style Guide as the coding style: https://google.github.io/styleguide/javaguide.html.
+For iOS, we follow the Swift API Design Guidelines: https://swift.org/documentation/api-design-guidelines/.",https://github.com/WhatsApp/stickers
+Donations,https://github.com/hishamhm/htop
+- meta - Issues with the project itself or our GitHub repository.,https://github.com/Dogfalo/materialize
+"- As an alternative to installing the above, we support a docker-based development environment. See: Docker Development Guide",https://github.com/DestinyItemManager/DIM
+npm run-script build-closure,https://github.com/mrdoob/three.js
+Pull requests,https://github.com/drewm/mailchimp-api
+- What happens after submitting contribution?,https://github.com/php/php-src
+- https://github.com/elastic/logstash/labels/good%20first%20issue,https://github.com/elastic/logstash
+"- Read through our tutorials. If you find anything that is confusing or can be improved, you can make edits by clicking ""Edit this chapter"" at the bottom left of the tutorial page.",https://github.com/sveltejs/svelte
+"- If no, ask for clarifications on the PR. This will usually lead to changes in the code such as renaming of variables/functions or extracting of functions or simply adding ""why"" inline comments. But first ask the author for clarifications before assuming any intent on their part.",https://github.com/elastic/logstash
+"In adition to automatic checks performed by commands above, we also enforce other minor things related to coding style:",https://github.com/versatica/mediasoup
+"First, you will need to create a GitHub account, if you don't already have one.",https://github.com/tastyigniter/TastyIgniter
+"# fmt: off
+text = ""I look forward to using Thingamajig.  I've been told it will make my life easier...""
+heads = [1, 0, -1, -2, -1, -1, -5, -1, 3, 2, 1, 0, 2, 1, -3, 1, 1, -3, -7]
+deps = [""nsubj"", ""ROOT"", ""advmod"", ""prep"", ""pcomp"", ""dobj"", ""punct"", """",
+""nsubjpass"", ""aux"", ""auxpass"", ""ROOT"", ""nsubj"", ""aux"", ""ccomp"",
+""poss"", ""nsubj"", ""ccomp"", ""punct""]
+# fmt: on",https://github.com/explosion/spaCy
+Bash code styleguide,https://github.com/liaralabs/swizzin
+- Submission Guidelines,https://github.com/scullyio/scully
+Running Unit Tests,https://github.com/nrwl/nx
+"- iwyu_include_picker.cc: this finds canonical #includes, handling private->public mappings (like bits/stl_vector.h -> vector) and symbols with multiple possible #includes (like NULL). Additional mappings are maintained in a set of .imp files separately, for easier per-platform/-toolchain customization.",https://github.com/include-what-you-use/include-what-you-use
+"# install voila in editable mode
+python -m pip install -e .",https://github.com/voila-dashboards/voila
+Contributions are always welcome! I only ask that you open an issue first so we can discuss the problem and solution. I just don't want you to waste any time headed in the wrong direction.,https://github.com/microsoft/vscode-chrome-debug
+How to contribute,https://github.com/gulpjs/gulp
+How do I add a new package?,https://github.com/FormidableLabs/urql
+"Depending on logic complexity, there are two common ways new trackers are implemented:",https://github.com/Jackett/Jackett
+- Run all the tests to assure nothing else was accidentally broken,https://github.com/Red5/red5-server
+Contributing,https://github.com/rubocop-hq/rubocop
+"- If you are reporting an issue with connectivity, please run ZNC
+in debug mode and include the relevant part of the output. To enable
+debug mode, run ZNC with the -D flag.",https://github.com/znc/znc
+Contributions in the form of pull requests are very welcome.,https://github.com/PHPCompatibility/PHPCompatibility
+Pre-requisites,https://github.com/doczjs/docz
+"To fix these errors, make sure you are running PHPCS 2.7.1 or higher and add the following to the phpunit.xml file for the sniff library you are testing:",https://github.com/PHPCompatibility/PHPCompatibility
+"- outline sections: help us ensure that this repository is comprehensive. If
+there is a topic that is overlooked, please add it, even if it is just a stub
+in the form of a header and single sentence. Initially, most things fall into
+this category",https://github.com/gulpjs/gulp
+Please make sure the following is done when submitting a pull request:,https://github.com/microsoft/reactxp
+- Add the link: * [project-name](http://example.com/) - A short description ends with a period.,https://github.com/vinta/awesome-python
+"- yarn i18n will add, sort, and prune src/locale/dim.json. You should never manually edit src/locale/dim.json. Some keys are obfuscated by code and will need to be added as comments into the code such as `// t('LoadoutBuilder.ObfuscatedKey1') t('LoadoutBuilder.ObfuscatedKey1'). If you have any questions ping @delphiactual via GitHub, Slack, or Discord.",https://github.com/DestinyItemManager/DIM
+"In addition to the checklist below, make sure to check that the Pull Request Guidelines (first half of this document) were followed.",https://github.com/OpenMW/openmw
+Breaking Changes should start with the word BREAKING CHANGE: with a space or two newlines. The rest of the commit message is then used for this.,https://github.com/scullyio/scully
+- are located in geometry/functions/,https://github.com/geometry-zsh/geometry
+Complete your CLA here: https://code.facebook.com/cla,https://github.com/facebook/redex
+"In both contexts, please follow the conduct guidelines above. Language issues
+are often contentious and we'd like to keep discussion brief, civil and focused
+on what we're actually doing, not wandering off into too much imaginary stuff.",https://github.com/gulpjs/gulp
+Triaging Issues and Pull Requests,https://github.com/facebook/docusaurus
+Contributing to Docusaurus,https://github.com/facebook/docusaurus
+- Multi-threading spaCy (explosion.ai),https://github.com/explosion/spaCy
+Prerequisites:,https://github.com/SpacehuhnTech/esp8266_deauther
+"5.  Once you are happy with your changes, submit a pull request.",https://github.com/minetest/minetest
+Testing and CI,https://github.com/mike42/escpos-php
+"+-------> Type: chore, docs, feat, fix, refactor, style, or test.",https://github.com/facebook/docusaurus

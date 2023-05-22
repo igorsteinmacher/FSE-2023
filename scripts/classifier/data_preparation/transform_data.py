@@ -52,13 +52,19 @@ def parse_spreadsheet_file(filepath, text_column, classes_columns, label_column)
         worksheet.rename(columns={worksheet.columns[0]: text_column}, inplace = True)
         worksheet[text_column].astype(str)
 
+        is_predict = False
+
+        if label_column == 'Prediction':
+            owner, name = filepath.split('\\')[-1].split('@')
+            is_predict = 'https://github.com/' + owner + '/' + name.replace('.xlsx', '')
+
         # Replace NaNs with 0s and non NaNs with 1s
         for column in classes_columns:
             if column in worksheet:
                 worksheet[column] = worksheet[column].notnull().astype(int)
                 
         worksheet[label_column] = worksheet.apply(lambda row: 
-                                                  define_label(row, classes_columns),
+                                                  define_label(row, classes_columns, is_predict),
                                                   axis=1)
         worksheet['Spreadsheet'] = os.path.basename(filepath)
         worksheet['Worksheet'] = worksheet_name
@@ -67,7 +73,7 @@ def parse_spreadsheet_file(filepath, text_column, classes_columns, label_column)
 
     return dataframe
 
-def define_label(row, classes_columns):
+def define_label(row, classes_columns, is_predict):
     """Identifies which label should be assigned to a row in a spreadsheet
 
     This study solves a multiclass classification problem. For this reason, a 
@@ -84,6 +90,9 @@ def define_label(row, classes_columns):
     Returns:
         A string representing the label for the respective row.
     """
+    if is_predict is not False:
+        return is_predict
+
     label = 'No categories identified.'
 
     for _class in classes_columns:

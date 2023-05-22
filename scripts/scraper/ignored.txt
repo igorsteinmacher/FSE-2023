@@ -18,3 +18,11 @@ golemfactory/golem
 CyC2018/CS-Notes
 hyb1996/Auto.js
 febsteam/FEBS-Shiro
+AndroidBootstrap/android-bootstrap
+ZXZxin/ZXBlog
+apache/lucene-solr
+spring-projects/spring-data-examples
+ThirtyDegreesRay/OpenHub
+codingapi/tx-lcn
+nytimes/Store
+stleary/JSON-java

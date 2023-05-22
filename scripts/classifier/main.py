@@ -5,6 +5,7 @@ __author__ = 'Felipe Fronchetti'
 __contact__ = 'fronchetti@usp.br'
 
 # General modules
+import csv
 import os
 import random
 import shutil
@@ -182,7 +183,7 @@ def predict_survey_spreadsheets(spreadsheets_dir, predict_spreadsheets_dir, resu
 
     # We use the same method using during the training process of an estimator
     # to parse the data from the spreadsheets to be predicted.
-    X_train, _, X_test, _, train_text_column, test_text_column = import_data_for_prediction(predict_spreadsheets_dir, data_dir)
+    X_train, _, X_test, _, train_text_column, test_text_colum, _ = import_data_for_prediction(predict_spreadsheets_dir, data_dir)
 
     # Merge training and test samples. Notice that this data
     # will not be used for training but only for prediction.
@@ -219,6 +220,69 @@ def predict_survey_spreadsheets(spreadsheets_dir, predict_spreadsheets_dir, resu
                     predictions_file.write("\"%s\", %s\n" % (text_column[instances[i]], y_predict[instances[i]]))
 
             predictions_file.write('\n')
+
+def predict_analysis_spreadsheets(spreadsheets_dir, predict_spreadsheets_dir, results_dir, n_samples):
+    """Using the final version of the best estimator (See train_final_estimator), 
+    this method is used to predict the classes of new data samples.
+
+    This method is used in our survey where participants evaluate
+    if our classifications make sense or not.
+
+    Args:
+        spreadsheets_dir (String): Folder where spreadsheets are located.
+        Notice that such spreadsheets should not be used to train the
+        classifier in the previous steps. In other works, they should
+        be unknown to the final estimator.
+        predict_spreadsheets_dir (String): Folder where a copy
+        of such spreadsheets will be saved. 
+        results_dir (String): Folder where the predictions will
+        be saved.
+        n_samples (Integer): Number of spreadsheets to be predicted.
+    """
+
+    # Finds a spreadsheet in the spreadsheet folder that is not
+    # being used, and copies it to a new folder of spreadsheets
+    # to be predicted. The outer loop stops when a number of
+    # n_samples is satisfied.
+
+    for i in range(0, n_samples):
+        while True:
+            filename = random.choice(os.listdir(spreadsheets_dir))
+            filepath = os.path.join(spreadsheets_dir, filename)
+            copy_filepath = os.path.join(predict_spreadsheets_dir, filename)
+
+            if os.path.isfile(filepath) and not os.path.exists(copy_filepath):
+                shutil.copyfile(filepath, copy_filepath)
+                break
+
+    # We use the same method using during the training process of an estimator
+    # to parse the data from the spreadsheets to be predicted.
+    X_train, y_train, X_test, y_test, train_text_column, test_text_column, _ = import_data_for_prediction(predict_spreadsheets_dir, data_dir)
+
+    # Merge training and test samples. Notice that this data
+    # will not be used for training but only for prediction.
+    # We just need to merge "training and test samples" because
+    # we use the method import_data_for_prediction to parse the
+    # data, which is also used in training.
+    X_predict = vstack((X_train, X_test))
+    projects_filename = pandas.concat([y_train, y_test], ignore_index = True)  # Just used to get the projects' filename
+    text_column = pandas.concat([train_text_column, test_text_column], ignore_index = True)
+    print(y_train)
+
+    # Loads the final estimator (See predict_using_final_estimator).
+    model = pickle.load(open('final_estimator.sav', 'rb'))
+
+    # Using the final estimator, predicts the classes for the unknown
+    # spreadsheets.
+    y_predict = model.predict(X_predict)
+
+    # Saves predictions in a CSV file.
+    with open(os.path.join(results_dir, 'predictions.csv'), 'w', newline='', encoding="utf-8") as predictions_file:
+        writer = csv.writer(predictions_file)
+        writer.writerow(['Paragraph', 'Class', 'Project'])
+
+        for i in range(len(y_predict)):
+            writer.writerow([text_column[i], y_predict[i], projects_filename[i]])
 
 if __name__ == '__main__':
     # Folders used during the whole process:
@@ -272,3 +336,4 @@ if __name__ == '__main__':
     # train_final_estimator(X_train, y_train, X_test, y_test)
     # Predict samples using the final model for the survey evaluation
     # predict_survey_spreadsheets(spreadsheets_dir, survey_spreadsheets_dir, results_dir, 75)
+    predict_analysis_spreadsheets(os.path.join(spreadsheets_dir, 'for-prediction'),  os.path.join(spreadsheets_dir, 'for-analysis'), results_dir, 100)

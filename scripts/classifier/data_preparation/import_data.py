@@ -70,7 +70,7 @@ def import_data_for_prediction(spreadsheets_dir, data_dir):
 
     # Label for a new column header that will merge
     # classes_columns into a single column
-    label_column = 'Label'
+    label_column = 'Prediction'
 
     # Filepaths where the train and test sets are saved
     train_filepath = os.path.join(data_dir, 'train_predict.csv')

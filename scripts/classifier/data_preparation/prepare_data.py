@@ -38,8 +38,11 @@ def create_train_and_test_sets(spreadsheets_dir, text_column, classes_columns,
 
     X = dataframe[text_column]
     y = dataframe[label_column]
-
-    X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, test_size=0.2)
+    
+    if label_column == 'Prediction':
+        X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2)
+    else:
+        X_train, X_test, y_train, y_test = train_test_split(X, y, stratify=y, test_size=0.2)
 
     train_data = pandas.concat([X_train, y_train], axis=1)
     test_data = pandas.concat([X_test, y_test], axis=1)
