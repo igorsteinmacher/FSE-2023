@@ -250,8 +250,8 @@ if __name__ == '__main__':
     # Stage 2 #
     ###########
     # Evaluates the final estimator on unseen data (i.e. estimator that best fits the problem)
-    X_train, y_train, X_test, y_test, _, _, _ = import_data_for_classification(training_spreadsheets_dir, data_dir, features='all')
-    evaluate_final_estimator_on_unseen_data(X_train, y_train, X_test, y_test, results_dir)
+    # X_train, y_train, X_test, y_test, _, _, _ = import_data_for_classification(training_spreadsheets_dir, data_dir, features='all')
+    # evaluate_final_estimator_on_unseen_data(X_train, y_train, X_test, y_test, results_dir)
 
     # Using only statistic features
     # X_train, y_train, X_test, y_test, _, _, _ = import_data_for_classification(training_spreadsheets_dir, data_dir, features='statistic')
