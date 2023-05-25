@@ -22,7 +22,7 @@ class Create:
 
     def graphql_request(self, query):
         # session.auth = (os.getenv('GITHUB_USER'), os.getenv('GITHUB_TOKEN'))
-        headers = {'Authorization': f'Bearer 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'}
+        headers = {'Authorization': f'Bearer '}
         url = 'https://api.github.com/graphql'
         # Create the request payload with the query
 
@@ -58,7 +58,7 @@ class Create:
         try:
             session = requests.Session()
             # session.auth = (os.getenv('GITHUB_USER'), os.getenv('GITHUB_TOKEN'))
-            session.auth = ('fronchetti', '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')
+            session.auth = ('fronchetti', '')
             retries = Retry(total = 10)
             session.mount('https://', HTTPAdapter(max_retries=retries))
             response = session.get(url, params=parameters, headers=headers)
