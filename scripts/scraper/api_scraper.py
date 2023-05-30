@@ -22,7 +22,7 @@ class Create:
 
     def graphql_request(self, query):
         # session.auth = (os.getenv('GITHUB_USER'), os.getenv('GITHUB_TOKEN'))
-        headers = {'Authorization': f'Bearer '}
+        headers = {'Authorization': f'Bearer #'}
         url = 'https://api.github.com/graphql'
         # Create the request payload with the query
 

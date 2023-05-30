@@ -97,4 +97,8 @@ def get_repositories_data():
 
 
 def organize_data():
-    return
+    stats_file = pandas.read_csv('repositories_info.csv')
+    contributors_file = pandas.read_csv('repositories_contributors.csv')
+    dataframe = stats_file.merge(contributors_file, on=['owner', 'name'], how='inner')
+    dataframe.to_excel('repositories_data.xlsx')
+organize_data()
