@@ -73,6 +73,8 @@ def import_data_for_prediction(spreadsheets_dir, data_dir):
     label_column = 'Prediction'
 
     # Filepaths where the train and test sets are saved
+    # Notice that we are using data from the folder 'for-prediction'
+    # These sets are merged later in main.py
     train_filepath = os.path.join(data_dir, 'train_predict.csv')
     test_filepath = os.path.join(data_dir, 'test_predict.csv')
 

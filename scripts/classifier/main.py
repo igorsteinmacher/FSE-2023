@@ -191,7 +191,7 @@ def predict_survey_spreadsheets(spreadsheets_dir, predict_spreadsheets_dir, resu
     # we use the method import_data_for_prediction to parse the
     # data, which is also used in training.
     X_predict = vstack((X_train, X_test))
-    text_column = pandas.concat([train_text_column, test_text_column], ignore_index = True)
+    text_column = pandas.concat([train_text_column, test_text_colum], ignore_index = True)
 
     # Loads the final estimator (See predict_using_final_estimator).
     model = pickle.load(open('final_estimator.sav', 'rb'))
