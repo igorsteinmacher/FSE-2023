@@ -29,7 +29,7 @@ def export_classification_report(model, X_test, y_test, results_dir):
     y_pred = model.predict(X_test)
     report = classification_report(y_test, y_pred, target_names=classes, output_dict=True)
 
-    report_filepath = os.path.join(results_dir, 'classification_report.json')
+    report_filepath = os.path.join(results_dir, 'classification_report_duplicates_removed.json')
 
     with open(report_filepath, 'w') as report_file:
         json.dump(report, report_file, indent=4)

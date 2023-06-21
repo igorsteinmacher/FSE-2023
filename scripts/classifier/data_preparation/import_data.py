@@ -36,9 +36,11 @@ def import_data_for_classification(spreadsheets_dir, data_dir, features = 'all')
 
     # Filepaths where the train and test sets are saved
     train_filepath = os.path.join(data_dir, 'train.csv')
-    test_filepath = os.path.join(data_dir, 'test.csv')
+    # test_filepath = os.path.join(data_dir, 'test.csv')
+    test_filepath = os.path.join(data_dir, 'test_without_duplicates.csv') # Using to respond reviewer
 
     if not os.path.exists(train_filepath) or not os.path.exists(test_filepath):
+        print('Generating train and test sets...')
         create_train_and_test_sets(spreadsheets_dir, text_column, 
                                    classes_columns, train_filepath, test_filepath,
                                    label_column)
