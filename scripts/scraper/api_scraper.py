@@ -4,7 +4,6 @@
 __author__ =  'Felipe Fronchetti'
 __contact__ = 'fronchetti@usp.br'
 
-import os
 import json
 import time
 import requests
@@ -58,7 +57,7 @@ class Create:
         try:
             session = requests.Session()
             # session.auth = (os.getenv('GITHUB_USER'), os.getenv('GITHUB_TOKEN'))
-            session.auth = ('fronchetti', '')
+            session.auth = ('fronchetti', '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')
             retries = Retry(total = 10)
             session.mount('https://', HTTPAdapter(max_retries=retries))
             response = session.get(url, params=parameters, headers=headers)

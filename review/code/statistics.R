@@ -1,5 +1,11 @@
 # Spearman Correlation
 # Metrics from valid projects vs all projects in the dataset
+wilcox.test(repositories_data$n_stars_valid , repositories_data$n_stars_invalid)
+wilcox.test(repositories_data$n_forks_valid , repositories_data$n_forks_invalid)
+wilcox.test(repositories_data$n_prs_valid , repositories_data$n_prs_invalid)
+wilcox.test(repositories_data$n_contributors_valid , repositories_data$n_contributors_invalid)
+wilcox.test(repositories_data$n_issues_valid , repositories_data$n_issues_invalid)
+
 cor.test(repositories_data$n_stars_all, repositories_data$n_stars_valid, method = "spearman", use = "complete.obs")
 cor.test(repositories_data$n_forks_all, repositories_data$n_forks_valid, method = "spearman", use = "complete.obs")
 cor.test(repositories_data$n_prs_all, repositories_data$n_prs_valid, method = "spearman", use = "complete.obs")
