@@ -1,6 +1,4 @@
 # Replication Package
-[![DOI](https://zenodo.org/badge/202890143.svg)](https://zenodo.org/badge/latestdoi/202890143)
-
 
 # Repository Structure 
 Our package is divided in folders and it is organized as follows:
