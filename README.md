@@ -1,4 +1,5 @@
 # Replication Package
+Welcome to the replication package of the paper "Do CONTRIBUTING files provide information about OSS newcomers’ onboarding barriers?", published at FSE 2023.
 
 # Repository Structure 
 Our package is divided into folders and it is organized as follows:
