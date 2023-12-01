@@ -1,6 +1,8 @@
 # Replication Package
 Welcome to the replication package of the paper entitled "_Do CONTRIBUTING files provide information about OSS newcomers’ onboarding barriers?_", published at FSE 2023.
 
+[**Click here to read the preprint**](https://github.com/fronchetti/FSE-2023/blob/master/preprint.pdf)
+
 # Repository Structure 
 Our package is divided into folders and it is organized as follows:
 - [**app**](https://github.com/fronchetti/FSE-2023/tree/master/app): This folder contains the implementation of our streamlit application, used to demonstrate the capabilities of our classification model. 
